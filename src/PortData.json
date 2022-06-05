@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "company": "The Lead Agent",
+    "companyImg": "../images/The_Lead_Agent_Logo.png",
+    "itemImg": "../images/Lead_Agent_Website_Preview@2x.jpg",
+    "header": "Real Estate Marketing Agency Website",
+    "tags": ["Wordpress", "Photoshop"],
+    "excerpt": "",
+    "page": "TLAWebsite"
+  },
+  {
+    "id": 2,
+    "company": "Leadpages.net",
+    "companyImg": "../images/leadpages_logo.png",
+    "itemImg": "../images/delicious_lp_theme_preview.jpg",
+    "header": "Restaurant Landing Page Theme",
+    "tags": ["HTML", "CSS", "JSON", "Bootstrap"],
+    "excerpt": "",
+    "page": "DeliciousLPTheme"
+  },
+  {
+    "id": 3,
+    "company": "Pridefit",
+    "companyImg": "../images/Pridefit_Logo.png",
+    "itemImg": "../images/PrideFit_LP_Preview.png",
+    "header": "Charity Fitness Landing Page",
+    "tags": ["HTML", "CSS", "JSON", "Bootstrap"],
+    "excerpt": "",
+    "page": "PowerForPride"
+  },
+  {
+    "id": 4,
+    "company": "Leadpages.net",
+    "companyImg": "../images/leadpages_logo.png",
+    "itemImg": "../images/Brand Coach LP Preview@2x.jpg",
+    "header": "Brand Coach Landing Page",
+    "tags": ["HTML", "CSS", "JSON", "Bootstrap"],
+    "excerpt": "",
+    "page": ""
+  },
+  {
+    "id": 5,
+    "company": "Realty To The Rescue",
+    "companyImg": "../images/RealtyToTheRescue_Logo@2x.png",
+    "itemImg": "../images/RealtyToTheRescue_Preview@2x.png",
+    "header": "Real Estate Wordpress Website",
+    "tags": ["Wordpress", "Elementor", "Figma"],
+    "excerpt": "",
+    "page": "RealyToTheRescue"
+  },
+  {
+    "id": 6,
+    "company": "Leadpages.net",
+    "companyImg": "../images/leadpages_logo.png",
+    "itemImg": "../images/Coaching_LP_Theme_Preview@2x.jpg",
+    "header": "Coach Guru Landing Page Preview",
+    "tags": ["HTML", "CSS", "JSON", "Bootstrap"],
+    "excerpt": "",
+    "page": ""
+  },
+  {
+    "id": 7,
+    "company": "Leadpages.net",
+    "companyImg": "../images/leadpages_logo.png",
+    "itemImg": "../images/Fitness_Funnel_Preview@2x.jpg",
+    "header": "Fitness Funnel",
+    "tags": ["HTML", "CSS", "JSON"],
+    "excerpt": "",
+    "page": ""
+  },
+  {
+    "id": 8,
+    "company": "GolfTroop",
+    "companyImg": "../images/Golftroop_Company_Logo@2x.jpg",
+    "itemImg": "../images/GolfTroop Flyer Preview@2x.jpg",
+    "header": "Golftroop Flyer Design",
+    "tags": ["InDesign"],
+    "excerpt": "",
+    "page": ""
+  },
+  {
+    "id": 9,
+    "company": "Leadpages.net",
+    "companyImg": "../images/leadpages_logo.png",
+    "itemImg": "../images/Leadmagnet Funnel@2x.jpg",
+    "header": "Leadmagnet Funnel",
+    "tags": ["HTML", "CSS", "JSON"],
+    "excerpt": "",
+    "page": ""
+  },
+  {
+    "id": 10,
+    "company": "Logistick",
+    "companyImg": "../images/Logistick_Company_Logo@2x.jpg",
+    "itemImg": "../images/Logistick_Preview@2x.jpg",
+    "header": "Logistick Logo Design",
+    "tags": ["Illustrator"],
+    "excerpt": "",
+    "page": "000-TEMPLATE"
+  },
+  {
+    "id": 11,
+    "company": "Nestle Purina",
+    "companyImg": "../images/Purina_Company_Logo@2x.jpg",
+    "itemImg": "../images/Purina_Biz_Cards_Preview@2x.jpg",
+    "header": "Logistick Logo Design",
+    "tags": ["Illustrator"],
+    "excerpt": "",
+    "page": ""
+  },
+  {
+    "id": 12,
+    "company": "The Lead Agent",
+    "companyImg": "../images/The_Lead_Agent_Logo.png",
+    "itemImg": "../images/TLA_Facebook_Funnel_Preview@2x.jpg",
+    "header": "Real Estate Facebook Ad / Funnel",
+    "tags": ["Facebook"],
+    "excerpt": "",
+    "page": ""
+  },
+  {
+    "id": 13,
+    "company": "White Rabbit Express",
+    "companyImg": "../images/White_Rabbit_Express_Company_Logo@2x.png",
+    "itemImg": "../images/White_Rabbit_Express_Postcard_Preview@2x.jpg",
+    "header": "White Rabbit Express Postcard",
+    "tags": ["Illustrator"],
+    "excerpt": "",
+    "page": ""
+  },
+  {
+    "id": 14,
+    "company": "Leadpages.net",
+    "companyImg": "../images/leadpages_logo.png",
+    "itemImg": "../images/Yoga_LP_Preview@2x.jpg",
+    "header": "White Rabbit Express Postcard",
+    "tags": ["Illustrator"],
+    "excerpt": "",
+    "page": ""
+  }
+]
