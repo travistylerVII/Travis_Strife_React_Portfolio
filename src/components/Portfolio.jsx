@@ -8,8 +8,17 @@ import Modal from "./Modal";
 import RealyToTheRescue from "../posts/RealyToTheRescue";
 import DeliciousLPTheme from "../posts/DeliciousLPTheme";
 import TLAWebsite from "../posts/TLAWebsite";
-import Template from "../posts/000-TEMPLATE";
 import PowerForPride from "../posts/Power-For-Pride";
+import NestlePurina from "../posts/NestlePurina";
+import Logistick from "../posts/Logistick";
+import BrandingCoachLP from "../posts/BrandingCoachLP";
+import CoachGuruLP from "../posts/CoachGuruLP";
+import FitnessFunnel from "../posts/FitnessFunnel";
+import GolfTroop from "../posts/GolfTroop";
+import LeadmagnetFunnel from "../posts/LeadmagnetFunnel";
+import REFacebookAdFunnel from "../posts/REFacebookAdFunnel";
+import WhiteRabbitExpress from "../posts/WhiteRabbitExpress";
+import YogaLandingPage from "../posts/YogaLandingPage";
 
 const Portfolio = (props) => {
   const [posts, setPosts] = useState([]);
@@ -62,7 +71,25 @@ const Portfolio = (props) => {
           {modalData.page === "DeliciousLPTheme" ? <DeliciousLPTheme /> : ""}
           {modalData.page === "TLAWebsite" ? <TLAWebsite /> : ""}
           {modalData.page === "PowerForPride" ? <PowerForPride /> : ""}
-          {modalData.page === "000-TEMPLATE" ? <Template /> : ""}
+          {modalData.page === "NestlePurina" ? <NestlePurina /> : ""}
+          {modalData.page === "Logistick" ? <Logistick /> : ""}
+          {modalData.page === "YogaLandingPage" ? <YogaLandingPage /> : ""}
+
+          {modalData.page === "BrandingCoachLP" ? <BrandingCoachLP /> : ""}
+          {modalData.page === "CoachGuruLP" ? <CoachGuruLP /> : ""}
+          {modalData.page === "FitnessFunnel" ? <FitnessFunnel /> : ""}
+          {modalData.page === "GolfTroop" ? <GolfTroop /> : ""}
+          {modalData.page === "LeadmagnetFunnel" ? <LeadmagnetFunnel /> : ""}
+          {modalData.page === "REFacebookAdFunnel" ? (
+            <REFacebookAdFunnel />
+          ) : (
+            ""
+          )}
+          {modalData.page === "WhiteRabbitExpress" ? (
+            <WhiteRabbitExpress />
+          ) : (
+            ""
+          )}
         </Modal>
       </div>
     </div>

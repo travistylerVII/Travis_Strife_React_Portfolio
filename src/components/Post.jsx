@@ -52,11 +52,11 @@ function PortItem({ post, setModalData, setIsModalOpened }) {
           >
             {post.header}
           </h2>
-          <div className="mt-1">
+          <div className="mt-1 flex flex-wrap leading-2">
             {tags.map((value, index) => {
               return (
                 <span
-                  className="mr-2 py-1 text-[1em] text-[#5A576D] after:content-[','] last:after:content-['']"
+                  className="mr-2 py-1 text-[.8em] text-[#8581a0] after:content-[','] last:after:content-['']"
                   key={index}
                 >
                   {value}
@@ -64,7 +64,7 @@ function PortItem({ post, setModalData, setIsModalOpened }) {
               );
             })}
           </div>
-          <p className="mt-3">{post.excerpt}</p>
+          <p className="mt-3 text-[14px] text-[#b4afcd]">{post.excerpt}</p>
         </div>
       </div>
     </motion.div>

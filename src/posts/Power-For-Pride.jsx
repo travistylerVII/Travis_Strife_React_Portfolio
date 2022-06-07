@@ -8,7 +8,7 @@ import Image2 from "../assets/pfp_screen-2.png";
 import Image3 from "../assets/pfp_screen-3.png";
 import Image4 from "../assets/pfp_screen-4.png";
 import Image5 from "../assets/pfp_screen-5.png";
-import { FaGithub } from "react-icons/fa";
+import PfpPhotoshop from "../assets/pfp_photoshop.jpg";
 function DeliciousLPTheme() {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
@@ -29,7 +29,9 @@ function DeliciousLPTheme() {
       </div>
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
-          <h1 className="text-5xl mb-5">Real Estate Marketing Agency</h1>
+          <h1 className="text-5xl mb-5">
+            Charity Fitness Leadpages Landing Page
+          </h1>
           <h2 id="project-overview">Project Overview</h2>
           <p>
             Power for pride is an unconventional spin on active fundraising — a
@@ -42,20 +44,6 @@ function DeliciousLPTheme() {
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
-          <div className="flex md:justify-end md:items-end mb-5">
-            <div className="mr-[10px] md:ml-[10px] md:mr-[0px] md:order-last">
-              <a href="https://theleadagent.com" target="_blank">
-                <FaGithub size={30} />
-              </a>
-            </div>
-            <div>
-              <span className="text-sm self-center">
-                <a href="https://theleadagent.com" target="_blank">
-                  Github Repository
-                </a>
-              </span>
-            </div>
-          </div>
           <div>
             <ul className="md:text-right mb-5">
               <li>
@@ -108,7 +96,11 @@ function DeliciousLPTheme() {
           the colors and style should be, the design turnaround time was
           lightning speed.
         </p>
-        <p>The development part... well that&#39;s another story. </p>
+        <p>The design was created in Photoshop.</p>
+        <p>
+          <img src={PfpPhotoshop} alt="Landing Page Photoshop Screenshot" />
+        </p>
+        <p>Now on to the development part...</p>
         <p>
           Overall developing a basic page like this is extremely simple.
           Hardcoding just takes some simple HTML and CSS and with Bootstrap as a

@@ -33,10 +33,10 @@ function Realtytotherescue() {
         <div className="md:w-[70%]">
           <h2>Project Overview</h2>
           <p>
-            Realty To The Rescue is a real estate website with a twist. Owned
-            and operated by Barb Forsyth, for every home bought and sold with
-            Barb, a percentage of the sale gets donated to an animal charity of
-            the buyer or seller's choice. Pretty sweet deal if you ask me!
+            Realty To The Rescue is a real estate website with a twist. For
+            every home bought and sold with Barb, a percentage of the sale gets
+            donated to an animal charity of the buyer or seller's choice. Pretty
+            sweet deal if you ask me!
           </p>
           <p>
             I had a lot of fun with this project because I fully support Barb's
