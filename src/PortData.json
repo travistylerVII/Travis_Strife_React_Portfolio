@@ -77,6 +77,16 @@
     "page": "RealyToTheRescue"
   },
   {
+    "id": 5,
+    "company": "Black Mage Media",
+    "companyImg": "../images/Black_Mage_Media_Company_Icon.png",
+    "itemImg": "../images/Black_Mage_Media_Logo_Preview@2x.jpg",
+    "header": "Black Mage Media Logo",
+    "tags": ["Design", "Logo"],
+    "excerpt": "Black Mage Media is a media company that provides unlimited graphic design",
+    "page": "BlackMageLogo"
+  },
+  {
     "id": 6,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",

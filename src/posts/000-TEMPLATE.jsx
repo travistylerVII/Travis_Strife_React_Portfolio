@@ -31,7 +31,7 @@ function DeliciousLPTheme() {
       </div>
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
-          <h1 className="text-5xl mb-5">Real Estate Marketing Agency</h1>
+          <h1 className="text-5xl mb-10">Real Estate Marketing Agency</h1>
           <h2>Project Overview</h2>
           <p>
             The Lead Agent is a digital marketing agency that specializes in
