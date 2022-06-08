@@ -58,11 +58,14 @@ function NestlePurina() {
           However, with their strict corporate branding guidelines, I hardly had
           any creative wiggle room to get crazy with the design. Which was a
           good decision on their part because I would have put Tuna from the
-          popular instagram channel{" "}
-          <a href="https://www.instagram.com/tunameltsmyheart" target="_blank">
-            {" "}
+          popular instagram channel
+          <a
+            href="https://www.instagram.com/tunameltsmyheart"
+            target="_blank"
+            rel="noreferrer"
+          >
             Tuna Melts My Heart
-          </a>{" "}
+          </a>
           on the backside of the card and called it a day!
         </p>
         <p>

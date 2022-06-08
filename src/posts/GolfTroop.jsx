@@ -46,13 +46,21 @@ function DeliciousLPTheme() {
         <div className="project-details flex-auto md:mt-0 mt-10">
           <div className="flex md:justify-end md:items-end mb-5">
             <div className="mr-[10px] md:ml-[10px] md:mr-[0px] md:order-last">
-              <a href="https://theleadagent.com" target="_blank">
+              <a
+                href="https://theleadagent.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaExternalLinkAlt size={30} />
               </a>
             </div>
             <div>
               <span className="text-sm self-center">
-                <a href="https://theleadagent.com" target="_blank">
+                <a
+                  href="https://theleadagent.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Website URL
                 </a>
               </span>
@@ -60,13 +68,21 @@ function DeliciousLPTheme() {
           </div>
           <div className="flex md:justify-end md:items-end mb-5">
             <div className="mr-[10px] md:ml-[10px] md:mr-[0px] md:order-last">
-              <a href="https://theleadagent.com" target="_blank">
+              <a
+                href="https://theleadagent.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub size={30} />
               </a>
             </div>
             <div>
               <span className="text-sm self-center">
-                <a href="https://theleadagent.com" target="_blank">
+                <a
+                  href="https://theleadagent.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github Repository
                 </a>
               </span>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.057d1f03.css",
-    "main.js": "/static/js/main.bb5bc21e.js",
+    "main.js": "/static/js/main.2b2f184d.js",
     "static/media/Delicious-Header@2x.jpg": "/static/media/Delicious-Header@2x.1b56a6f4c3735c675542.jpg",
     "static/media/RealtyToTheRescue_Page_Header@2x.png": "/static/media/RealtyToTheRescue_Page_Header@2x.894ebbc524bf02dba05d.png",
     "static/media/white_rabbit_header@2x.jpg": "/static/media/white_rabbit_header@2x.56f813c8f89cccf3e6a0.jpg",
@@ -59,10 +59,10 @@
     "static/media/RealtyToTheRescue_Logo@2x.png": "/static/media/RealtyToTheRescue_Logo@2x.7598d94588061490e33f.png",
     "index.html": "/index.html",
     "main.057d1f03.css.map": "/static/css/main.057d1f03.css.map",
-    "main.bb5bc21e.js.map": "/static/js/main.bb5bc21e.js.map"
+    "main.2b2f184d.js.map": "/static/js/main.2b2f184d.js.map"
   },
   "entrypoints": [
     "static/css/main.057d1f03.css",
-    "static/js/main.bb5bc21e.js"
+    "static/js/main.2b2f184d.js"
   ]
 }

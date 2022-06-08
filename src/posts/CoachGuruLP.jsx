@@ -8,9 +8,6 @@ import Image2 from "../assets/Coach_Guru_Screens_02@2x.jpg";
 import Image3 from "../assets/Coach_Guru_Screens_03@2x.jpg";
 import Image4 from "../assets/Coach_Guru_Screens_04@2x.jpg";
 import Image5 from "../assets/Coach_Guru_Screens_05@2x.jpg";
-import FigmaScreen from "../assets/tla_figma_screen.jpg";
-import { FaExternalLinkAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 function DeliciousLPTheme() {
   const [width, setWidth] = useState(0);
   const carousel = useRef();

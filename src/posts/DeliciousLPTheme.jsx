@@ -46,6 +46,7 @@ function Realtytotherescue() {
               <a
                 href="https://github.com/tstrife777/delicious_landing_page_theme"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaGithub size={30} />
               </a>
@@ -55,6 +56,7 @@ function Realtytotherescue() {
                 <a
                   href="https://github.com/tstrife777/delicious_landing_page_theme"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Github Repository
                 </a>
