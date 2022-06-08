@@ -19,7 +19,7 @@ function Realtytotherescue() {
   return (
     <div className="page-content text-lg">
       <div className="lg:mx-[-100px] mx-[-40px] lg:mt-[-100px] mt-[-40px] mb-[30px]">
-        <img src={HeaderImg} alt="Header" className="" />
+        <img src={HeaderImg} alt="Header" className="header-image" />
       </div>
       <div className="company-title flex flex-col-2 space-x-4 mb-8">
         <img src={CompanyImage} alt="Company" className="w-11 h-11" />
@@ -73,8 +73,9 @@ function Realtytotherescue() {
             <li>
               <strong>Deliverables:</strong>
             </li>
-            <li>Landing Page Design</li>
-            <li>Landing Page Theme</li>
+            <li>Figma Design</li>
+            <li>Photoshop Design</li>
+            <li>Theme Files</li>
           </ul>
         </div>
       </div>

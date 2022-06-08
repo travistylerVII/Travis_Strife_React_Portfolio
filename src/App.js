@@ -34,6 +34,9 @@ function App() {
       <Portfolio setValue={setModalBlurr} />
       <About />
       <Contact />
+      <div className="footer text-center text-white py-10">
+        © 2022 Moore Media LLC All Rights Reserved
+      </div>
     </div>
   );
 }

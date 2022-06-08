@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderImg from "../assets/Coaching_Guru_Header@2x.jpg";
-import CompanyImage from "../assets/The_Lead_Agent_Logo.png";
+import CompanyImage from "../assets/leadpages_logo.png";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import Image1 from "../assets/Coach_Guru_Screens_01@2x.jpg";
@@ -23,15 +23,15 @@ function DeliciousLPTheme() {
   return (
     <div className="page-content text-lg">
       <div className="lg:mx-[-100px] mx-[-40px] lg:mt-[-100px] mt-[-40px] mb-[30px]">
-        <img src={HeaderImg} alt="Header" className="" />
+        <img src={HeaderImg} alt="Header" className="header-image" />
       </div>
       <div className="company-title flex flex-col-2 space-x-4 mb-8">
         <img src={CompanyImage} alt="Company" className="w-11 h-11" />
-        <h4 className="pt-2">TheLeadAgent.com</h4>
+        <h4 className="pt-2">Leadpages.net</h4>
       </div>
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
-          <h1 className="text-5xl mb-5">Real Estate Marketing Agency</h1>
+          <h1 className="text-5xl mb-10">Coach Guru Landing Page Theme</h1>
           <h2>Project Overview</h2>
           <p>
             A Leadpages Landing Page Theme designed specifically for coaching
@@ -44,20 +44,6 @@ function DeliciousLPTheme() {
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
-          <div className="flex md:justify-end md:items-end mb-5">
-            <div className="mr-[10px] md:ml-[10px] md:mr-[0px] md:order-last">
-              <a href="https://theleadagent.com" target="_blank">
-                <FaGithub size={30} />
-              </a>
-            </div>
-            <div>
-              <span className="text-sm self-center">
-                <a href="https://theleadagent.com" target="_blank">
-                  Github Repository
-                </a>
-              </span>
-            </div>
-          </div>
           <div>
             <ul className="md:text-right mb-5">
               <li>
@@ -71,8 +57,8 @@ function DeliciousLPTheme() {
                 <strong>Deliverables:</strong>
               </li>
 
-              <li>Landing Page Design</li>
-              <li>Landing Page Theme</li>
+              <li>Figma Design</li>
+              <li>Theme Files</li>
             </ul>
           </div>
         </div>
@@ -88,7 +74,7 @@ function DeliciousLPTheme() {
         >
           {cimages.map((image) => {
             return (
-              <motion.div key={image} className="item p-[20px] min-w-[26rem]">
+              <motion.div key={image} className="item p-[20px] min-w-[40rem]">
                 <img
                   src={image}
                   alt=""

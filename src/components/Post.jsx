@@ -44,7 +44,7 @@ function PortItem({ post, setModalData, setIsModalOpened }) {
         </div>
         <div className={excerptLength > 0 ? "excerpt-box" : ""}>
           <h2
-            className="text-[25px] mt-[15px] cursor-pointer"
+            className="text-[25px] mt-[15px] cursor-pointer leading-8"
             onClick={() => {
               setModalData(post);
               setIsModalOpened(true);
@@ -52,11 +52,11 @@ function PortItem({ post, setModalData, setIsModalOpened }) {
           >
             {post.header}
           </h2>
-          <div className="mt-1 flex flex-wrap leading-2">
+          <div className="mt-1 flex flex-wrap">
             {tags.map((value, index) => {
               return (
                 <span
-                  className="mr-2 py-1 text-[.8em] text-[#8581a0] after:content-[','] last:after:content-['']"
+                  className="mr-2 text-[.8em] text-[#8581a0] after:content-[','] last:after:content-['']"
                   key={index}
                 >
                   {value}

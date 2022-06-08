@@ -1,22 +1,41 @@
 import React from "react";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const home = () => {
   return (
     <div
       name="home"
-      className="container lg:w-[1300px] mx-auto pt-[80px] sm:pt-[30px] lg:pt-[200px] pb-[100px] lg:pb-[100px]"
+      className="container lg:w-[1300px] mx-auto pt-[80px] sm:pt-[30px] lg:pt-[80px] pb-[100px] lg:pb-[100px]"
     >
       {/* Container */}
-      <div className="px-8 lg:w-[700px]">
-        <p className="text-pink-600">Hi, my name is Travis</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-white">
-          This is where the headline goes!
+      <div className="px-5 lg:w-[700px]">
+        <h2 className="hero-subheader text-[#28e6ca] text-3xl mb-5">
+          Hey there, my names Travis!
+        </h2>
+        <h1 className="hero-header text-5xl sm:text-6xl font-bold text-white">
+          I design and develop persuasive websites and apps.
         </h1>
-        <p className="text-[#b3bbd3] py-4 max-w-[700px]">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
-          deleniti animi, cumque fugit id necessitatibus.
+        <p className="text-[#b3bbd3] py-4 mb-5 max-w-[700px] text-[1.3em]">
+          Checkout some of my most recent projects below and feel free to
+          contact me using the form below to get in touch!
+        </p>
+        <p>
+          <Link
+            to="work"
+            smooth={true}
+            duration={500}
+            className="button rounded-full bg-[#28e6ca] text-[#082b26] py-2 px-5 mr-2 cursor-pointer"
+          >
+            View Portfolio
+          </Link>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="button rounded-full py-2 px-5 text-white border cursor-pointer"
+          >
+            Contact Me
+          </Link>
         </p>
       </div>
     </div>

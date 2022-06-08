@@ -5,7 +5,7 @@
     "companyImg": "../images/The_Lead_Agent_Logo.png",
     "itemImg": "../images/Lead_Agent_Website_Preview@2x.jpg",
     "header": "Real Estate Marketing Agency Website",
-    "tags": ["Wordpress", "Photoshop"],
+    "tags": ["Wordpress", "Photoshop", "Figma"],
     "excerpt": "The Lead Agent is a digital marketing agency that specializes in helping Real Estate Agents, Brokers, and Mortgage...",
     "page": "TLAWebsite"
   },
@@ -15,7 +15,17 @@
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/delicious_lp_theme_preview.jpg",
     "header": "Restaurant Landing Page Theme",
-    "tags": ["HTML", "CSS", "JSON", "Bootstrap"],
+    "tags": [
+      "Design",
+      "Development",
+      "HTML",
+      "CSS",
+      "JSON",
+      "Bootstrap",
+      "Javascript",
+      "Photoshop",
+      "Figma"
+    ],
     "excerpt": "Like most of the themes I created for Leadpages.net, this theme was created because I spotted a gap in the market...",
     "page": "DeliciousLPTheme"
   },
@@ -25,7 +35,15 @@
     "companyImg": "../images/Pridefit_Logo.png",
     "itemImg": "../images/PrideFit_LP_Preview.png",
     "header": "Charity Fitness Leadpages Landing Page",
-    "tags": ["HTML", "CSS", "JSON", "Bootstrap"],
+    "tags": [
+      "Design",
+      "Development",
+      "HTML",
+      "CSS",
+      "JSON",
+      "Bootstrap",
+      "Photoshop"
+    ],
     "excerpt": "Power for pride is an unconventional spin on active fundraising — a deadlifting event designed to raise money and build awareness for Minneapolis homeless youth...",
     "page": "PowerForPride"
   },
@@ -35,7 +53,16 @@
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Brand Coach LP Preview@2x.jpg",
     "header": "Brand Coach Landing Page",
-    "tags": ["HTML", "CSS", "JSON", "Bootstrap"],
+    "tags": [
+      "Design",
+      "Development",
+      "Photoshop",
+      "Illustrator",
+      "HTML",
+      "CSS",
+      "JSON",
+      "Bootstrap"
+    ],
     "excerpt": "",
     "page": "BrandingCoachLP"
   },
@@ -44,8 +71,8 @@
     "company": "Realty To The Rescue",
     "companyImg": "../images/RealtyToTheRescue_Logo@2x.png",
     "itemImg": "../images/RealtyToTheRescue_Preview@2x.png",
-    "header": "Real Estate Wordpress Website",
-    "tags": ["Wordpress", "Elementor", "Figma"],
+    "header": "Real Estate Wordpress Website w/ IDX",
+    "tags": ["Design", "Wordpress", "Elementor", "Figma"],
     "excerpt": "Realty To The Rescue is a real estate website with a twist. For every home bought and sold with Barb, a percentage of the sale gets donated to an animal charity of the buyer or seller's choice...",
     "page": "RealyToTheRescue"
   },
@@ -54,8 +81,16 @@
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Coaching_LP_Theme_Preview@2x.jpg",
-    "header": "Coach Guru Landing Page Preview",
-    "tags": ["HTML", "CSS", "JSON", "Bootstrap"],
+    "header": "Coach Guru Landing Page Theme",
+    "tags": [
+      "Design",
+      "HTML",
+      "CSS",
+      "JSON",
+      "Bootstrap",
+      "Figma",
+      "Illustrator"
+    ],
     "excerpt": "A Leadpages Landing Page Theme designed specifically for coaching professionals.",
     "page": "CoachGuruLP"
   },
@@ -65,7 +100,7 @@
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Fitness_Funnel_Preview@2x.jpg",
     "header": "Fitness Funnel",
-    "tags": ["HTML", "CSS", "JSON"],
+    "tags": ["Design", "Development", "HTML", "CSS", "JSON", "Bootstrap"],
     "excerpt": "",
     "page": "FitnessFunnel"
   },
@@ -75,7 +110,7 @@
     "companyImg": "../images/Golftroop_Company_Logo@2x.jpg",
     "itemImg": "../images/GolfTroop Flyer Preview@2x.jpg",
     "header": "Golftroop Flyer Design",
-    "tags": ["InDesign"],
+    "tags": ["Design", "InDesign"],
     "excerpt": "",
     "page": "GolfTroop"
   },
@@ -85,17 +120,17 @@
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Leadmagnet Funnel@2x.jpg",
     "header": "Leadmagnet Funnel",
-    "tags": ["HTML", "CSS", "JSON"],
+    "tags": ["Design", "Development", "HTML", "CSS", "JSON", "Bootstrap"],
     "excerpt": "",
     "page": "LeadmagnetFunnel"
   },
   {
     "id": 10,
-    "company": "Logistick",
+    "company": "Logistick Promotions",
     "companyImg": "../images/Logistick_Company_Logo@2x.jpg",
     "itemImg": "../images/Logistick_Preview@2x.jpg",
     "header": "Logistick Logo Design",
-    "tags": ["Illustrator"],
+    "tags": ["Design", "Illustrator", "Logo"],
     "excerpt": "Logistick Promotions is a company that creates marketing materials that stick. You know, like stickers and magnets...",
     "page": "Logistick"
   },
@@ -105,7 +140,7 @@
     "companyImg": "../images/Purina_Company_Logo@2x.jpg",
     "itemImg": "../images/Purina_Biz_Cards_Preview@2x.jpg",
     "header": "Nestle-Purina Business Card Design",
-    "tags": ["InDesign"],
+    "tags": ["Design", "InDesign"],
     "excerpt": "Do you know Nestle the chocolate company? And do you know Purina the dog food company? Well, apparently they merged into Nestle Purina...",
     "page": "NestlePurina"
   },
@@ -115,7 +150,7 @@
     "companyImg": "../images/The_Lead_Agent_Logo.png",
     "itemImg": "../images/TLA_Facebook_Funnel_Preview@2x.jpg",
     "header": "Real Estate Facebook Ad Campaign",
-    "tags": ["Advertising"],
+    "tags": ["Advertising", "Design"],
     "excerpt": "This is a complete Facebook real estate Buyer marketing campaign designed to generate buyer leads and convert them to appointments and phone calls.",
     "page": "REFacebookAdFunnel"
   },
@@ -125,7 +160,7 @@
     "companyImg": "../images/White_Rabbit_Express_Company_Logo@2x.png",
     "itemImg": "../images/White_Rabbit_Express_Postcard_Preview@2x.jpg",
     "header": "99 Designs Winning Project",
-    "tags": ["Illustrator"],
+    "tags": ["Design", "Illustrator"],
     "excerpt": "The White Rabbit Express is a shipping company that specializes in shipping products from Japan...",
     "page": "WhiteRabbitExpress"
   },
@@ -135,7 +170,15 @@
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Yoga_LP_Preview@2x.jpg",
     "header": "Yoga Leadpages Landing Page",
-    "tags": ["Photoshop", "HTML", "CSS", "Bootstrap", "JSON"],
+    "tags": [
+      "Design",
+      "Development",
+      "Photoshop",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JSON"
+    ],
     "excerpt": "Designed for yoga studios, surprisingly this Leadpages landing page theme was one of Leadpages top-rated themes in their marketplace!",
     "page": "YogaLandingPage"
   }

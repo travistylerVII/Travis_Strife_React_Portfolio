@@ -22,7 +22,7 @@ function YogaLandingPage() {
   return (
     <div className="page-content text-lg">
       <div className="lg:mx-[-100px] mx-[-40px] lg:mt-[-100px] mt-[-40px] mb-[30px]">
-        <img src={HeaderImg} alt="Header" className="" />
+        <img src={HeaderImg} alt="Header" className="header-image" />
       </div>
       <div className="company-title flex flex-col-2 space-x-4 mb-8">
         <img src={CompanyImage} alt="Company" className="w-11 h-11" />
@@ -30,7 +30,9 @@ function YogaLandingPage() {
       </div>
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
-          <h1 className="text-5xl mb-5">Yoga Leadpages Landing Page Theme</h1>
+          <h1 className="text-5xl mb-10 leading-[1.2em]">
+            Yoga Leadpages Landing Page Theme
+          </h1>
           <h2>Project Overview</h2>
           <p>
             Designed for yoga studios, surprisingly this Leadpages landing page
@@ -71,7 +73,7 @@ function YogaLandingPage() {
               <li>
                 <strong>Deliverables:</strong>
               </li>
-              <li>Landing Page Design</li>
+              <li>Photoshop Files</li>
               <li>Leadpages Theme</li>
             </ul>
           </div>
@@ -88,7 +90,7 @@ function YogaLandingPage() {
         >
           {cimages.map((image) => {
             return (
-              <motion.div key={image} className="item p-[20px] min-w-[26rem]">
+              <motion.div key={image} className="item p-[20px] min-w-[40rem]">
                 <img
                   src={image}
                   alt=""

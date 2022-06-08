@@ -12,21 +12,37 @@ function Filter({ setActiveCat, activeCat, setFiltered, posts }) {
   }, [activeCat]);
 
   return (
-    <div className="filter-container p-5">
+    <div className="filter-container p-5 lg:max-w-[1000px]">
       <button
         onClick={() => setActiveCat(0)}
         className={"btn " + (activeCat === 0 ? "active" : "")}
       >
         All
       </button>
-
+      <button
+        onClick={() => setActiveCat("Design")}
+        className={"btn " + (activeCat === "Design" ? "active" : "")}
+      >
+        Design
+      </button>
+      <button
+        onClick={() => setActiveCat("Development")}
+        className={"btn " + (activeCat === "Development" ? "active" : "")}
+      >
+        Development
+      </button>
+      <button
+        onClick={() => setActiveCat("Logo")}
+        className={"btn " + (activeCat === "Logo" ? "active" : "")}
+      >
+        Logo
+      </button>
       <button
         onClick={() => setActiveCat("HTML")}
         className={"btn " + (activeCat === "HTML" ? "active" : "")}
       >
         HTML
       </button>
-
       <button
         onClick={() => setActiveCat("CSS")}
         className={"btn " + (activeCat === "CSS" ? "active" : "")}
@@ -47,6 +63,12 @@ function Filter({ setActiveCat, activeCat, setFiltered, posts }) {
       >
         React
       </button>
+      <button
+        onClick={() => setActiveCat("JSON")}
+        className={"btn " + (activeCat === "JSON" ? "active" : "")}
+      >
+        JSON
+      </button>
 
       <button
         onClick={() => setActiveCat("Bootstrap")}
@@ -55,10 +77,22 @@ function Filter({ setActiveCat, activeCat, setFiltered, posts }) {
         Bootstrap
       </button>
       <button
+        onClick={() => setActiveCat("Tailwind")}
+        className={"btn " + (activeCat === "Tailwind" ? "active" : "")}
+      >
+        Tailwind
+      </button>
+      <button
         onClick={() => setActiveCat("Wordpress")}
         className={"btn " + (activeCat === "Wordpress" ? "active" : "")}
       >
         Wordpress
+      </button>
+      <button
+        onClick={() => setActiveCat("Webflow")}
+        className={"btn " + (activeCat === "Webflow" ? "active" : "")}
+      >
+        Webflow
       </button>
     </div>
   );

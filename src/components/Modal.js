@@ -32,7 +32,7 @@ const Modal = ({ isOpened, children, onClose }) => {
       {/*<div className="overlay fixed z-20 inset-0" onClick={onClose}></div>*/}
       <div
         className="
-     pb-[100px] absolute flex flex-col lg:p-[100px] p-[40px] lg:w-[1000px] w-[100%] bg-[#1e1d25] text-white left-[50%] translate-x-[-50%] z-30 drop-shadow-2xl lg:mt-[100px]"
+     pb-[100px] absolute flex flex-col lg:p-[100px] p-[40px] lg:w-[1000px] w-[100%] bg-[#1e1d25] text-white left-[50%] translate-x-[-50%] z-30 drop-shadow-2xl lg:mt-[30px] rounded-t-[10px]"
         onClick={clickMe}
       >
         <div>

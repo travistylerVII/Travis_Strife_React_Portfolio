@@ -1,12 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Montserrat:wght@400;600;800&family=Roboto&display=swap");
 
 @layer base {
   body {
-    @apply font-[Raleway];
+    @apply font-[Roboto];
     background-color: #1e1d25;
     height: 100vh;
   }
@@ -36,7 +35,7 @@
 }
 :root {
   --main-color: #1e1d25;
-  --accent-color: #f330a5;
+  --accent-color: #28e6ca;
 }
 
 .btn {
@@ -51,9 +50,18 @@
 }
 
 .btn.active {
-  background-color: #f330a5;
+  background-color: #28e6ca;
   border: 0;
   color: #1e1d25;
+}
+
+.navigation {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.homepage-h4 {
+  font-family: "Montserrat", sans-serif;
 }
 
 /* ///// HERO SECTION ////// */
@@ -100,17 +108,25 @@
   opacity: 0;
 }
 
+.hero-header {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-subheader {
+  font-family: "Kalam", cursive;
+}
+
 /* /////// PORTFOLIO SECTION //////// */
 
 .excerpt-box {
   background-color: #282632;
   padding: 20px;
-  -webkit-border-bottom-right-radius: 5px;
-  -webkit-border-bottom-left-radius: 5px;
-  -moz-border-radius-bottomright: 5px;
-  -moz-border-radius-bottomleft: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  -moz-border-radius-bottomright: 7px;
+  -moz-border-radius-bottomleft: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 .excerpt-box h2 {
   margin-top: 0;
@@ -127,13 +143,24 @@
 /* /////// PAGE CONTENT ///// */
 
 .page-content h1 {
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
 }
 .page-content h2 {
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   margin-bottom: 1rem;
-  font-weight: bold;
+  font-weight: normal;
+}
+
+.header-image {
+  -webkit-border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .page-content h3 {
@@ -156,7 +183,7 @@
   cursor: default;
 }
 .page-content a {
-  color: #f330a5;
+  color: #28e6ca;
 }
 
 /* /////// MEDIA QUERYS /////// */

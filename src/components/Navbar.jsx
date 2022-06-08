@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { HiOutlineMail, HiOutlineMailOpen } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/sig_logo.png";
 import { Link } from "react-scroll";
 
@@ -10,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="container flex mx-auto lg:w-[1300px] h-[80px] justify-between items-center px-4 text-gray-100">
+    <div className="navigation container flex mx-auto lg:w-[1300px] h-[80px] justify-between items-center px-4 text-gray-100">
       <div>
         <img src={Logo} alt="Logo Image" className="w-[100px]" />
       </div>

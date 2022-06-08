@@ -8,7 +8,7 @@ function Logistick() {
   return (
     <div className="page-content text-lg">
       <div className="lg:mx-[-100px] mx-[-40px] lg:mt-[-100px] mt-[-40px] mb-[30px]">
-        <img src={HeaderImg} alt="Header" className="" />
+        <img src={HeaderImg} alt="Header" className="header-image" />
       </div>
       <div className="company-title flex flex-col-2 space-x-4 mb-8">
         <img
@@ -20,7 +20,7 @@ function Logistick() {
       </div>
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
-          <h1 className="text-5xl mb-5">Logistick Logo</h1>
+          <h1 className="text-5xl mb-10">Logistick Logo</h1>
           <h2>Project Overview</h2>
           <p>
             Logistick Promotions is a company that creates marketing materials
@@ -44,7 +44,7 @@ function Logistick() {
               <li>
                 <strong>Deliverables:</strong>
               </li>
-              <li>Logo Design</li>
+              <li>Illustrator Design</li>
             </ul>
           </div>
         </div>
