@@ -3,11 +3,11 @@ import HeaderImg from "../assets/pfp_header@2x.jpg";
 import CompanyImage from "../assets/pridefit_company_icon@2x.png";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import Image1 from "../assets/pfp_screen-1.png";
-import Image2 from "../assets/pfp_screen-2.png";
-import Image3 from "../assets/pfp_screen-3.png";
-import Image4 from "../assets/pfp_screen-4.png";
-import Image5 from "../assets/pfp_screen-5.png";
+import Image1 from "../assets/pfp_screen-1.jpg";
+import Image2 from "../assets/pfp_screen-2.jpg";
+import Image3 from "../assets/pfp_screen-3.jpg";
+import Image4 from "../assets/pfp_screen-4.jpg";
+import Image5 from "../assets/pfp_screen-5.jpg";
 import PfpPhotoshop from "../assets/pfp_photoshop.jpg";
 function DeliciousLPTheme() {
   const [width, setWidth] = useState(0);
