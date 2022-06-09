@@ -30,36 +30,40 @@ function PortItem({ post, setModalData, setIsModalOpened }) {
       >
         {post.company}
       </h4>
-      <div className={excerptLength > 0 ? "shadow-lg" : ""}>
+      <div
+        className={"cursor-pointer " + (excerptLength > 0 ? "shadow-lg" : "")}
+        onClick={() => {
+          setModalData(post);
+          setIsModalOpened(true);
+        }}
+      >
         <div className={excerptLength < 0 ? "shadow-lg" : ""}>
-          <img
-            className="rounded-[7px] cursor-pointer"
-            style={post.itemImg.includes(".mp4") ? { display: "none" } : {}}
-            alt={post.header}
-            src={post.itemImg}
-            onClick={() => {
-              setModalData(post);
-              setIsModalOpened(true);
-            }}
-          />
-          <video
-            className="rounded-[7px] cursor-pointer"
-            className={post.itemImg.includes(".mp4") ? "show" : "hide"}
-            style={post.itemImg.includes(".mp4") ? {} : { display: "none" }}
-            src={post.itemImg}
-            autoplay="true"
-            loop="true"
-            mute="true"
-            playsinline="true"
-            class="cover"
-            height=""
-            width=""
-            alt=""
-            onClick={() => {
-              setModalData(post);
-              setIsModalOpened(true);
-            }}
-          ></video>
+          {post.itemImg.includes(".mp4") ? (
+            <div>
+              <video
+                className={
+                  "cover " +
+                  (excerptLength > 0 ? "rounded-t-[7px]" : "rounded-[7px]")
+                }
+                src={post.itemImg}
+                autoplay="true"
+                loop="true"
+                muted="true"
+                playsinline="true"
+                height=""
+                width=""
+                alt=""
+              ></video>
+            </div>
+          ) : (
+            <img
+              className={
+                excerptLength > 0 ? "rounded-t-[7px]" : "rounded-[7px]"
+              }
+              alt={post.header}
+              src={post.itemImg}
+            />
+          )}
         </div>
 
         <div className={excerptLength > 0 ? "excerpt-box" : ""}>
