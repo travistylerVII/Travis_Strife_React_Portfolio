@@ -68,6 +68,16 @@
   },
   {
     "id": 5,
+    "company": "Black Mage Media",
+    "companyImg": "../images/Black_Mage_Media_Company_Icon.png",
+    "itemImg": "../images/Black_Mage_Media_Logo_Preview@2x.jpg",
+    "header": "Black Mage Media Logo",
+    "tags": ["Design", "Logo"],
+    "excerpt": "Black Mage Media is a media company that provides unlimited graphic design",
+    "page": "BlackMageLogo"
+  },
+  {
+    "id": 6,
     "company": "Moore Media LLC",
     "companyImg": "../images/MooreMedia_Company_Icon.png",
     "itemImg": "../images/Portfolio_Preview@2x.jpg",
@@ -85,8 +95,9 @@
     "excerpt": "...",
     "page": "MyPortfolio"
   },
+
   {
-    "id": 6,
+    "id": 7,
     "company": "Realty To The Rescue",
     "companyImg": "../images/RealtyToTheRescue_Logo@2x.png",
     "itemImg": "../images/RealtyToTheRescue_Preview.jpg",
@@ -96,16 +107,6 @@
     "page": "RealyToTheRescue"
   },
 
-  {
-    "id": 7,
-    "company": "Black Mage Media",
-    "companyImg": "../images/Black_Mage_Media_Company_Icon.png",
-    "itemImg": "../images/Black_Mage_Media_Logo_Preview@2x.jpg",
-    "header": "Black Mage Media Logo",
-    "tags": ["Design", "Logo"],
-    "excerpt": "Black Mage Media is a media company that provides unlimited graphic design",
-    "page": "BlackMageLogo"
-  },
   {
     "id": 8,
     "company": "Leadpages.net",
