@@ -33,7 +33,7 @@
     "id": 3,
     "company": "Pridefit",
     "companyImg": "../images/Pridefit_Logo.png",
-    "itemImg": "../images/PrideFit_LP_Preview.png",
+    "itemImg": "../images/Power4Pride_Video_Preview.mp4",
     "header": "Charity Fitness Leadpages Landing Page",
     "tags": [
       "Design",
@@ -160,7 +160,7 @@
     "companyImg": "../images/MooreMedia_Company_Icon.png",
     "itemImg": "../images/React_Masonry_Grid_Filter_Video_Preview_800_600.mp4",
     "header": "React Masonry Grid Filter Component",
-    "tags": ["Development", "React"],
+    "tags": ["Development", "React", "HTML", "CSS", "Javascript", "Tailwind"],
     "excerpt": "A masonry grid display with filter menu build in react",
     "page": "YogaLandingPage"
   },

@@ -1,23 +1,24 @@
 import React from "react";
 import { Link } from "react-scroll";
+import TopTestimonials from "./TopTestimonials";
 
 const home = () => {
   return (
     <div
       name="home"
-      className="container lg:w-[1300px] mx-auto pt-[80px] sm:pt-[30px] lg:pt-[80px] pb-[100px] lg:pb-[100px]"
+      className="container lg:w-[1300px] mx-auto pt-[80px] sm:pt-[30px] lg:pt-[80px] pb-[40px]"
     >
-      {/* Container */}
-      <div className="px-5 lg:w-[700px]">
+      <div className="px-5 lg:w-[700px] mb-[150px]">
         <h2 className="hero-subheader text-[#28e6ca] text-3xl mb-5">
           Hey there, my names Travis!
         </h2>
         <h1 className="hero-header text-5xl sm:text-6xl font-bold text-white">
-          I design and develop persuasive websites and apps.
+          I design and develop persuasive websites and apps
         </h1>
         <p className="text-[#b3bbd3] py-4 mb-5 max-w-[700px] text-[1.3em]">
-          Checkout some of my most recent projects below and feel free to
-          contact me using the form below to get in touch!
+          ...and other creative things as well. Checkout some of my most recent
+          projects below and feel free to contact me using the form below to get
+          in touch!
         </p>
         <p>
           <Link
@@ -26,7 +27,7 @@ const home = () => {
             duration={500}
             className="button rounded-full bg-[#28e6ca] text-[#082b26] py-2 px-5 mr-2 cursor-pointer"
           >
-            View Portfolio
+            View Work
           </Link>
           <Link
             to="contact"
@@ -37,6 +38,9 @@ const home = () => {
             Contact Me
           </Link>
         </p>
+      </div>
+      <div className="px-5">
+        <TopTestimonials />
       </div>
     </div>
   );

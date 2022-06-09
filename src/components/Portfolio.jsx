@@ -46,7 +46,7 @@ const Portfolio = (props) => {
   }, []);
 
   return (
-    <div name="work" className="container lg:w-[1300px] mx-auto lg:py-16">
+    <div name="work" className="container lg:w-[1300px] mx-auto lg:pb-16">
       <Filter
         posts={posts}
         setFiltered={setFiltered}

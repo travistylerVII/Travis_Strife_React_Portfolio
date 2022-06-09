@@ -185,6 +185,35 @@
   color: #28e6ca;
 }
 
+/* /////// Testimonial Box /////// */
+
+.stars {
+  display: inline-block;
+  vertical-align: middle;
+  top: -12px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.stars:before,
+.stars:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 0.5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid #c7cfd5;
+}
+.stars:after {
+  margin: 0 -55% 0 0.5em;
+}
+
+.stars img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
 /* /////// MEDIA QUERYS /////// */
 
 @media (min-width: 640px) {
@@ -206,8 +235,4 @@
     opacity: 1;
     background-position: 0%;
   }
-}
-
-.hidden {
-  display: none;
 }
