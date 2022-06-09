@@ -16,6 +16,7 @@ import CoachGuruLP from "../posts/CoachGuruLP";
 import FitnessFunnel from "../posts/FitnessFunnel";
 import BlackMageLogo from "../posts/BlackMageLogo";
 import GolfTroop from "../posts/GolfTroop";
+import MyPortfolio from "../posts/MyPortfolio";
 import LeadmagnetFunnel from "../posts/LeadmagnetFunnel";
 import REFacebookAdFunnel from "../posts/REFacebookAdFunnel";
 import WhiteRabbitExpress from "../posts/WhiteRabbitExpress";
@@ -76,6 +77,7 @@ const Portfolio = (props) => {
           {modalData.page === "Logistick" ? <Logistick /> : ""}
           {modalData.page === "YogaLandingPage" ? <YogaLandingPage /> : ""}
           {modalData.page === "BlackMageLogo" ? <BlackMageLogo /> : ""}
+          {modalData.page === "MyPortfolio" ? <MyPortfolio /> : ""}
           {modalData.page === "BrandingCoachLP" ? <BrandingCoachLP /> : ""}
           {modalData.page === "CoachGuruLP" ? <CoachGuruLP /> : ""}
           {modalData.page === "FitnessFunnel" ? <FitnessFunnel /> : ""}

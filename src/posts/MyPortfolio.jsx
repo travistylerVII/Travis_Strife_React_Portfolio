@@ -1,14 +1,13 @@
 import React from "react";
-import HeaderImg from "../assets/Theleadagent_page_header@2x.jpg";
-import CompanyImage from "../assets/The_Lead_Agent_Logo.png";
+import HeaderImg from "../assets/Portfolio-header.jpg";
+import CompanyImage from "../assets/MooreMedia_Company_Icon.png";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import Image1 from "../assets/TLA_Page_Previews01@2x.jpg";
-import Image2 from "../assets/TLA_Page_Previews02@2x.jpg";
-import Image3 from "../assets/TLA_Page_Previews03@2x.jpg";
-import Image4 from "../assets/TLA_Page_Previews04@2x.jpg";
-import Image5 from "../assets/TLA_Page_Previews05@2x.jpg";
-import FigmaScreen from "../assets/tla_figma_screen.jpg";
+import Image1 from "../assets/Portfolio_Images_01.jpg";
+import Image2 from "../assets/Portfolio_Images_02.jpg";
+import Image3 from "../assets/Portfolio_Images_03.jpg";
+import FigmaScreen from "../assets/Portfolio_Figma_Screen.jpg";
+import CodeScreen from "../assets/Portfolio_Code_Screen.jpg";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 function DeliciousLPTheme() {
@@ -19,7 +18,7 @@ function DeliciousLPTheme() {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
 
-  const cimages = [Image1, Image2, Image3, Image4, Image5];
+  const cimages = [Image1, Image2, Image3];
   return (
     <div className="page-content text-lg">
       <div className="lg:mx-[-100px] mx-[-40px] lg:mt-[-100px] mt-[-40px] mb-[30px]">
@@ -171,6 +170,9 @@ function DeliciousLPTheme() {
         </p>
         <p>
           <img alt="figma screenshot" src={FigmaScreen} />
+        </p>
+        <p>
+          <img alt="Code screenshot" src={CodeScreen} />
         </p>
         <p>
           The most time consuming part was creating the copy. But that's a story

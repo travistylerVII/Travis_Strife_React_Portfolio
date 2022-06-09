@@ -68,6 +68,25 @@
   },
   {
     "id": 5,
+    "company": "Moore Media LLC",
+    "companyImg": "../images/MooreMedia_Company_Icon.png",
+    "itemImg": "../images/Portfolio_Preview@2x.jpg",
+    "header": "My Portfolio Site Built with React",
+    "tags": [
+      "Design",
+      "Development",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "React",
+      "JSON",
+      "Tailwind"
+    ],
+    "excerpt": "...",
+    "page": "MyPortfolio"
+  },
+  {
+    "id": 6,
     "company": "Realty To The Rescue",
     "companyImg": "../images/RealtyToTheRescue_Logo@2x.png",
     "itemImg": "../images/RealtyToTheRescue_Preview.jpg",
@@ -76,8 +95,9 @@
     "excerpt": "Realty To The Rescue is a real estate website with a twist. For every home bought and sold with Barb, a percentage of the sale gets donated to an animal charity of the buyer or seller's choice...",
     "page": "RealyToTheRescue"
   },
+
   {
-    "id": 5,
+    "id": 7,
     "company": "Black Mage Media",
     "companyImg": "../images/Black_Mage_Media_Company_Icon.png",
     "itemImg": "../images/Black_Mage_Media_Logo_Preview@2x.jpg",
@@ -87,7 +107,7 @@
     "page": "BlackMageLogo"
   },
   {
-    "id": 6,
+    "id": 8,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Coaching_LP_Theme_Preview@2x.jpg",
@@ -105,7 +125,7 @@
     "page": "CoachGuruLP"
   },
   {
-    "id": 7,
+    "id": 9,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Fitness_Funnel_Preview@2x.jpg",
@@ -115,7 +135,7 @@
     "page": "FitnessFunnel"
   },
   {
-    "id": 8,
+    "id": 10,
     "company": "GolfTroop",
     "companyImg": "../images/Golftroop_Company_Logo@2x.jpg",
     "itemImg": "../images/GolfTroop Flyer Preview@2x.jpg",
@@ -125,17 +145,17 @@
     "page": "GolfTroop"
   },
   {
-    "id": 9,
-    "company": "Leadpages.net",
-    "companyImg": "../images/leadpages_logo.png",
+    "id": 11,
+    "company": "Copy King",
+    "companyImg": "../images/Copyking_Company_Icon.png",
     "itemImg": "../images/Leadmagnet Funnel@2x.jpg",
-    "header": "Leadmagnet Funnel",
+    "header": "Profitable Blogger Cheat Sheet Leadmagnet Funnel",
     "tags": ["Design", "Development", "HTML", "CSS", "JSON", "Bootstrap"],
     "excerpt": "",
     "page": "LeadmagnetFunnel"
   },
   {
-    "id": 10,
+    "id": 12,
     "company": "Logistick Promotions",
     "companyImg": "../images/Logistick_Company_Logo@2x.jpg",
     "itemImg": "../images/Logistick_Preview@2x.jpg",
@@ -145,7 +165,7 @@
     "page": "Logistick"
   },
   {
-    "id": 11,
+    "id": 13,
     "company": "Nestle Purina",
     "companyImg": "../images/Purina_Company_Logo@2x.jpg",
     "itemImg": "../images/Purina_Biz_Cards_Preview@2x.jpg",
@@ -155,7 +175,7 @@
     "page": "NestlePurina"
   },
   {
-    "id": 12,
+    "id": 14,
     "company": "The Lead Agent",
     "companyImg": "../images/The_Lead_Agent_Logo.png",
     "itemImg": "../images/TLA_Facebook_Funnel_Preview@2x.jpg",
@@ -165,7 +185,7 @@
     "page": "REFacebookAdFunnel"
   },
   {
-    "id": 13,
+    "id": 15,
     "company": "White Rabbit Express",
     "companyImg": "../images/White_Rabbit_Express_Company_Logo@2x.png",
     "itemImg": "../images/White_Rabbit_Express_Postcard_Preview@2x.jpg",
@@ -175,7 +195,7 @@
     "page": "WhiteRabbitExpress"
   },
   {
-    "id": 14,
+    "id": 16,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Yoga_LP_Preview@2x.jpg",

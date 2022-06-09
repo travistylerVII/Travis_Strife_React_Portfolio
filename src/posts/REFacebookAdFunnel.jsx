@@ -71,7 +71,7 @@ function REFacebookAdFunnel() {
         >
           {cimages.map((image) => {
             return (
-              <motion.div key={image} className="item p-[20px] min-w-[26rem]">
+              <motion.div key={image} className="item p-[20px] min-w-[33rem]">
                 <img
                   src={image}
                   alt=""
