@@ -156,6 +156,16 @@
   },
   {
     "id": 12,
+    "company": "Moore Media LLC",
+    "companyImg": "../images/MooreMedia_Company_Icon.png",
+    "itemImg": "../images/React_Masonry_Grid_Filter_Video_Preview_800_600.mp4",
+    "header": "React Masonry Grid Filter Component",
+    "tags": ["Development", "React"],
+    "excerpt": "A masonry grid display with filter menu build in react",
+    "page": "YogaLandingPage"
+  },
+  {
+    "id": 13,
     "company": "Logistick Promotions",
     "companyImg": "../images/Logistick_Company_Logo@2x.jpg",
     "itemImg": "../images/Logistick_Preview@2x.jpg",
@@ -165,7 +175,7 @@
     "page": "Logistick"
   },
   {
-    "id": 13,
+    "id": 14,
     "company": "Nestle Purina",
     "companyImg": "../images/Purina_Company_Logo@2x.jpg",
     "itemImg": "../images/Purina_Biz_Cards_Preview@2x.jpg",
@@ -175,7 +185,7 @@
     "page": "NestlePurina"
   },
   {
-    "id": 14,
+    "id": 15,
     "company": "The Lead Agent",
     "companyImg": "../images/The_Lead_Agent_Logo.png",
     "itemImg": "../images/TLA_Facebook_Funnel_Preview@2x.jpg",
@@ -185,7 +195,7 @@
     "page": "REFacebookAdFunnel"
   },
   {
-    "id": 15,
+    "id": 16,
     "company": "White Rabbit Express",
     "companyImg": "../images/White_Rabbit_Express_Company_Logo@2x.png",
     "itemImg": "../images/White_Rabbit_Express_Postcard_Preview@2x.jpg",
@@ -195,7 +205,7 @@
     "page": "WhiteRabbitExpress"
   },
   {
-    "id": 16,
+    "id": 17,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Yoga_LP_Preview@2x.jpg",

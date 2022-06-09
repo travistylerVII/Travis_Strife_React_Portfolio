@@ -34,14 +34,34 @@ function PortItem({ post, setModalData, setIsModalOpened }) {
         <div className={excerptLength < 0 ? "shadow-lg" : ""}>
           <img
             className="rounded-[7px] cursor-pointer"
-            alt="{post.header}"
+            style={post.itemImg.includes(".mp4") ? { display: "none" } : {}}
+            alt={post.header}
             src={post.itemImg}
             onClick={() => {
               setModalData(post);
               setIsModalOpened(true);
             }}
           />
+          <video
+            className="rounded-[7px] cursor-pointer"
+            className={post.itemImg.includes(".mp4") ? "show" : "hide"}
+            style={post.itemImg.includes(".mp4") ? {} : { display: "none" }}
+            src={post.itemImg}
+            autoplay="true"
+            loop="true"
+            mute="true"
+            playsinline="true"
+            class="cover"
+            height=""
+            width=""
+            alt=""
+            onClick={() => {
+              setModalData(post);
+              setIsModalOpened(true);
+            }}
+          ></video>
         </div>
+
         <div className={excerptLength > 0 ? "excerpt-box" : ""}>
           <h2
             className="text-[25px] mt-[15px] cursor-pointer leading-8"
