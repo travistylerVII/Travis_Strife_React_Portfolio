@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd8947a6.css",
+    "main.css": "/static/css/main.362187a1.css",
     "main.js": "/static/js/main.1e189cb7.js",
     "static/media/React_Masonry_Grid_Filter_Video_Preview_800_600.mp4": "/static/media/React_Masonry_Grid_Filter_Video_Preview_800_600.0f3c760bf60499e18283.mp4",
     "static/media/RealtyToTheRescue_Page_Header@2x.png": "/static/media/RealtyToTheRescue_Page_Header@2x.ad9fda235b5c05438be8.png",
@@ -75,11 +75,11 @@
     "static/media/Testimonial_2.png": "/static/media/Testimonial_2.68ebe9c615cf18a52b96.png",
     "index.html": "/index.html",
     "static/media/Star.svg": "/static/media/Star.f764a61c4049f06c1abae410de968436.svg",
-    "main.fd8947a6.css.map": "/static/css/main.fd8947a6.css.map",
+    "main.362187a1.css.map": "/static/css/main.362187a1.css.map",
     "main.1e189cb7.js.map": "/static/js/main.1e189cb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd8947a6.css",
+    "static/css/main.362187a1.css",
     "static/js/main.1e189cb7.js"
   ]
 }
