@@ -13,7 +13,6 @@ Handcrafted and made with love in Mesa, AZ.
 
 ## Todo List
 
-- [ ] Fix About Me copy / center align
 - [ ] Add social media links / icons
 - [ ] Edit portfolio copy
 - [ ] Add resume download link
@@ -35,6 +34,7 @@ Handcrafted and made with love in Mesa, AZ.
 
 ## Completed
 
+- [x] Fix About Me copy
 - [x] Clean up portfolio item copy
 - [x] Add top testimonial box
 - [x] Refactored image / video portfolio item preview code

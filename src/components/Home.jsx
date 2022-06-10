@@ -6,7 +6,7 @@ const home = () => {
   return (
     <div
       name="home"
-      className="container lg:w-[1300px] mx-auto pt-[80px] sm:pt-[30px] lg:pt-[80px] pb-[40px]"
+      className="container lg:w-[1300px] mx-auto pt-[30px] sm:pt-[30px] lg:pt-[80px] pb-[40px]"
     >
       <div className="px-5 lg:w-[700px] mb-[150px]">
         <h2 className="hero-subheader text-[#28e6ca] text-3xl mb-5">

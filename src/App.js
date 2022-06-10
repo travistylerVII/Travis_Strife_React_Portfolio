@@ -24,12 +24,12 @@ function App() {
   }, []);
   return (
     <div className={modalBlurr === true ? "blurr" : ""}>
+      <Navbar />
       <div
         className={
           "bg-hero " + (showBg === true ? "bg-fade-in" : "bg-fade-out")
         }
       ></div>
-      <Navbar />
       <Home />
       <Portfolio setValue={setModalBlurr} />
       <About />

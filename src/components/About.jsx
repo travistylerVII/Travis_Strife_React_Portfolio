@@ -19,13 +19,25 @@ const about = () => {
           <h4 className="homepage-h4 font-bold text-4xl inline border-b-4 border-[#28e6ca]">
             About
           </h4>
-          <p className="mt-[20px] text-[18px]">
-            I am passionate about building excellent software that improved the
-            lives of those around me. I specialize in creating software for
-            cleints ranging from indivientuals and small-businesses all the way
-            to large enterpsiece corportations. What would you do if you had a
-            software expert availabel at your fingertips?
-          </p>
+          <div className="mt-[20px] text-[18px]">
+            <p className="mb-4">
+              Technology is at the forefront of solving some of the biggest
+              problems in this world and I want to be a part of it. As early as
+              I
+            </p>
+            <p>
+              could remember I have always been passionate about technology and
+              design. Around age 12, shortly after my family brought home our
+              first home computer, I remember going to the book store to buy my
+              very first programming book "HTML: A beginners guide by Wendy
+              Willard". I read that book from cover to cover jumpstarting my
+              career in the web-dev at an early age. Since then I have improved
+              my skills dramatically with not just coding, but also designing
+              for the web as well. This is a lifelong journey of growth for me
+              and I look forward to adding more value to this world as I
+              continue to progress.
+            </p>
+          </div>
         </div>
       </div>
     </div>

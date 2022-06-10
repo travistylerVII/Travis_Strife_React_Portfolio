@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7c62069.css",
-    "main.js": "/static/js/main.95c4a26c.js",
+    "main.css": "/static/css/main.fd8947a6.css",
+    "main.js": "/static/js/main.1e189cb7.js",
+    "static/media/React_Masonry_Grid_Filter_Video_Preview_800_600.mp4": "/static/media/React_Masonry_Grid_Filter_Video_Preview_800_600.0f3c760bf60499e18283.mp4",
     "static/media/RealtyToTheRescue_Page_Header@2x.png": "/static/media/RealtyToTheRescue_Page_Header@2x.ad9fda235b5c05438be8.png",
     "static/media/Delicious-Header@2x.jpg": "/static/media/Delicious-Header@2x.92ff52fac30322f11ed7.jpg",
     "static/media/pfp_header@2x.jpg": "/static/media/pfp_header@2x.2c7e7a1f179621a12746.jpg",
@@ -20,29 +21,31 @@
     "static/media/Theleadagent_page_header@2x.jpg": "/static/media/Theleadagent_page_header@2x.022700595ff6bad42a15.jpg",
     "static/media/delicious_screen3@2x.jpg": "/static/media/delicious_screen3@2x.2b451dcfea915928960a.jpg",
     "static/media/Fitness_Checkout_Landing_Page_Header.jpg": "/static/media/Fitness_Checkout_Landing_Page_Header.c9a299157b7522c2ac7d.jpg",
+    "static/media/Portfolio_Code_Screen_2@2x.jpg": "/static/media/Portfolio_Code_Screen_2@2x.7f294893fb6559cc8afb.jpg",
+    "static/media/Portfolio_Images_02@2x.jpg": "/static/media/Portfolio_Images_02@2x.26e861c334087620bbee.jpg",
     "static/media/tuna_bizcard_mockup.jpg": "/static/media/tuna_bizcard_mockup.99cd1ce0f2bd9b3e69b4.jpg",
     "static/media/rttr2@2x.jpg": "/static/media/rttr2@2x.950cac5d11e4fd50cf0d.jpg",
+    "static/media/Portfolio_Code_Screen_1@2x.jpg": "/static/media/Portfolio_Code_Screen_1@2x.49ceb0f0441db26c71e3.jpg",
+    "static/media/Portfolio_Images_01@2x.jpg": "/static/media/Portfolio_Images_01@2x.3283c9d32797ea1c10c6.jpg",
     "static/media/logistick_logo_drafts@2x.jpg": "/static/media/logistick_logo_drafts@2x.72c7ac26bada9cdc6645.jpg",
+    "static/media/Portfolio_Images_03@2x.jpg": "/static/media/Portfolio_Images_03@2x.849972ba9921f0cc5a33.jpg",
     "static/media/rttr1@2x.jpg": "/static/media/rttr1@2x.8659f68ab092c9f2eee3.jpg",
     "static/media/TLA_Page_Previews04@2x.jpg": "/static/media/TLA_Page_Previews04@2x.b9bdba07499bd28d54b6.jpg",
     "static/media/pfp_photoshop.jpg": "/static/media/pfp_photoshop.1b2152502d08199c8fa6.jpg",
     "static/media/Leadmagnet_Landing_Page_Header.jpg": "/static/media/Leadmagnet_Landing_Page_Header.1eedc41a8af03bd9346c.jpg",
     "static/media/delicious_screen2@2x.jpg": "/static/media/delicious_screen2@2x.2b6d9cba08361b67a956.jpg",
     "static/media/Golftroop-page-header.jpg": "/static/media/Golftroop-page-header.209ea398d8926c9eef70.jpg",
+    "static/media/Portfolio_Code_Screen_3@2x.jpg": "/static/media/Portfolio_Code_Screen_3@2x.911601857e4b6b076a2d.jpg",
     "static/media/yoga_header@2x.jpg": "/static/media/yoga_header@2x.5a41875a8f51ced9feb5.jpg",
     "static/media/yogo_screenshot_05@2x.jpg": "/static/media/yogo_screenshot_05@2x.659eab0ff45e09bda26b.jpg",
     "static/media/yogo_screenshot_04@2x.jpg": "/static/media/yogo_screenshot_04@2x.812c3d3b588e02b4adfe.jpg",
-    "static/media/Portfolio_Images_01.jpg": "/static/media/Portfolio_Images_01.a5100c0f53e62db522b1.jpg",
     "static/media/pfp_screen-3.jpg": "/static/media/pfp_screen-3.19fa230aeb9dc3eef290.jpg",
     "static/media/TLA_Page_Previews01@2x.jpg": "/static/media/TLA_Page_Previews01@2x.cf76d2060fdc4fa8c2a1.jpg",
     "static/media/rttr3@2x.jpg": "/static/media/rttr3@2x.97e20d67c7089b06ebd1.jpg",
     "static/media/Coaching_Guru_Header@2x.jpg": "/static/media/Coaching_Guru_Header@2x.f7db62e2b053131a94ae.jpg",
-    "static/media/Portfolio_Code_Screen.jpg": "/static/media/Portfolio_Code_Screen.5c4ee88f3b2fc8411109.jpg",
     "static/media/TLA_Page_Previews03@2x.jpg": "/static/media/TLA_Page_Previews03@2x.38fde856fc9a05ed4898.jpg",
     "static/media/yogo_screenshot_02@2x.jpg": "/static/media/yogo_screenshot_02@2x.7fe6377265e40038c800.jpg",
-    "static/media/Portfolio_Images_03.jpg": "/static/media/Portfolio_Images_03.bf7a99a406a7cbe9ef7a.jpg",
     "static/media/rttr5@2x.jpg": "/static/media/rttr5@2x.ce6adfae80ec50b532f7.jpg",
-    "static/media/Portfolio_Images_02.jpg": "/static/media/Portfolio_Images_02.a2d57c00ad07f08d38cd.jpg",
     "static/media/TLA_Page_Previews02@2x.jpg": "/static/media/TLA_Page_Previews02@2x.1c0fbf13c8be0e3edf59.jpg",
     "static/media/Black-Mage-Logo-Header.jpg": "/static/media/Black-Mage-Logo-Header.efc87bf4d239785b62a7.jpg",
     "static/media/home_bg.jpg": "/static/media/home_bg.2a41aebc511f8952ba4f.jpg",
@@ -72,11 +75,11 @@
     "static/media/Testimonial_2.png": "/static/media/Testimonial_2.68ebe9c615cf18a52b96.png",
     "index.html": "/index.html",
     "static/media/Star.svg": "/static/media/Star.f764a61c4049f06c1abae410de968436.svg",
-    "main.e7c62069.css.map": "/static/css/main.e7c62069.css.map",
-    "main.95c4a26c.js.map": "/static/js/main.95c4a26c.js.map"
+    "main.fd8947a6.css.map": "/static/css/main.fd8947a6.css.map",
+    "main.1e189cb7.js.map": "/static/js/main.1e189cb7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7c62069.css",
-    "static/js/main.95c4a26c.js"
+    "static/css/main.fd8947a6.css",
+    "static/js/main.1e189cb7.js"
   ]
 }

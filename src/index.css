@@ -216,9 +216,9 @@
 
 /* /////// MEDIA QUERYS /////// */
 
-@media (min-width: 640px) {
+@media (min-width: 400px) {
   .bg-hero {
-    opacity: 1;
+    opacity: 0.2;
     background-position: 50% 0%;
   }
 }
