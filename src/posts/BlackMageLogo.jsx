@@ -16,15 +16,17 @@ function DeliciousLPTheme() {
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
           <h1 className="text-5xl mb-10">Black Mage Media Logo</h1>
-          <h2>Project Overview</h2>
           <p>
-            The Lead Agent is a digital marketing agency that specializes in
-            helping Real Estate Agents, Brokers, and Mortgage Loan Officers
-            capture and convert leads into closed deals.
+            Black Mage Media is a company I created that offers unlimited
+            graphic design for one fixed monthly subscription. Pretty sweet deal
+            if you ask me.
           </p>
           <p>
-            The services it provides range from creating ads, building funnels,
-            marketing automation, training, and more.
+            I really had a lot of fun creating this logo as I took inspiration
+            from time favorite video game Final Fantasy. In the game there are
+            these pointy hat mages that I thought would fit perfectly replacing
+            the letter A in the word Mage itself. I feel like it worked out
+            quite well.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
@@ -44,21 +46,6 @@ function DeliciousLPTheme() {
             </ul>
           </div>
         </div>
-      </div>
-      <div>
-        <h2>My Role</h2>
-        <p>
-          As the Founder and CEO of this company was in charge of everything
-          until I needed to hire out.
-        </p>
-
-        <p>
-          <img alt="figma screenshot" src={FigmaScreen} />
-        </p>
-        <p>
-          The most time consuming part was creating the copy. But that's a story
-          for another day.
-        </p>
       </div>
     </div>
   );

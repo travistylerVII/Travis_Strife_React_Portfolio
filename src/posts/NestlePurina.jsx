@@ -18,13 +18,14 @@ function NestlePurina() {
           <h2>Project Overview</h2>
           <p>Business cards designed for Nestle Purina. </p>
           <p>
-            Do you know Nestle the chocolate company? And do you know Purina the
-            dog food company? Well, apparently they merged into Nestle Purina
-            for some reason, and well... I find that kinda strange.
+            Wanna hear something I find kinda strange... Nestle the cholodate
+            company merged with Purina the dog food company to form
+            "Nestle-Purina". Why? I have no idea. In fact, I find it very
+            strange. But who am I to judge.
           </p>
           <p>
-            But regardless of their strange business strategy, someone from the
-            corporate office at one point put trust in me to design them a
+            However, regardless of their strange business strategy, someone from
+            the corporate office at one point put trust in me to design them a
             business card. (Welp, that was a mistake.) Lucky for me, in the end,
             they loved it.
           </p>
@@ -58,7 +59,7 @@ function NestlePurina() {
           However, with their strict corporate branding guidelines, I hardly had
           any creative wiggle room to get crazy with the design. Which was a
           good decision on their part because I would have put Tuna from the
-          popular instagram channel
+          popular instagram channel&nbsp;
           <a
             href="https://www.instagram.com/tunameltsmyheart"
             target="_blank"
@@ -66,7 +67,7 @@ function NestlePurina() {
           >
             Tuna Melts My Heart
           </a>
-          on the backside of the card and called it a day!
+          &nbsp;on the backside of the card and called it a day!
         </p>
         <p>
           <img src={TunaBizCard} alt="Tuna Biz Card Mockup" />

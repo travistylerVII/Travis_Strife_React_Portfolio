@@ -37,9 +37,7 @@ function DeliciousLPTheme() {
               <li>
                 <strong>Deliverables:</strong>
               </li>
-              <li>Landing Page PSD</li>
-              <li>Upsell Page PSD</li>
-              <li>Thank You Page PSD</li>
+              <li>Photohop Files</li>
               <li>Development Files</li>
             </ul>
           </div>

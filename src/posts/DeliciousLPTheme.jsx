@@ -27,6 +27,7 @@ function Realtytotherescue() {
       </div>
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
+          <h1 className="text-5xl mb-10">Restaurant Landing Page Theme</h1>
           <h2>Project Overview</h2>
           <p>
             Like most of the themes I created for Leadpages.net, this theme was

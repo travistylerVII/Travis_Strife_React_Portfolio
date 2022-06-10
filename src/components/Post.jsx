@@ -46,10 +46,10 @@ function PortItem({ post, setModalData, setIsModalOpened }) {
                   (excerptLength > 0 ? "rounded-t-[7px]" : "rounded-[7px]")
                 }
                 src={post.itemImg}
-                autoplay="true"
-                loop="true"
-                muted="true"
-                playsinline="true"
+                autoPlay={true}
+                loop={true}
+                muted={true}
+                playsInline={true}
                 height=""
                 width=""
                 alt=""

@@ -73,7 +73,7 @@
     "itemImg": "../images/Black_Mage_Media_Logo_Preview@2x.jpg",
     "header": "Black Mage Media Logo",
     "tags": ["Design", "Logo"],
-    "excerpt": "Black Mage Media is a media company that provides unlimited graphic design",
+    "excerpt": "Black Mage Media is a company I created that offers unlimited graphic design for one fixed monthly subscription. Pretty sweet deal if you ask me...",
     "page": "BlackMageLogo"
   },
   {
@@ -92,7 +92,7 @@
       "JSON",
       "Tailwind"
     ],
-    "excerpt": "...",
+    "excerpt": "I wanted to design and develop my portfolio site from scratch because I feel designers and developers who don't are posers...",
     "page": "MyPortfolio"
   },
 
@@ -130,7 +130,7 @@
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Fitness_Funnel_Preview@2x.jpg",
-    "header": "Fitness Funnel",
+    "header": "Checkout Page Fitness Funnel",
     "tags": ["Design", "Development", "HTML", "CSS", "JSON", "Bootstrap"],
     "excerpt": "",
     "page": "FitnessFunnel"
@@ -162,8 +162,8 @@
     "itemImg": "../images/React_Masonry_Grid_Filter_Video_Preview_800_600.mp4",
     "header": "React Masonry Grid Filter Component",
     "tags": ["Development", "React", "HTML", "CSS", "Javascript", "Tailwind"],
-    "excerpt": "A masonry grid display with filter menu build in react",
-    "page": "YogaLandingPage"
+    "excerpt": "This masonry style grid component with filter was custom designed and developed so I had a clean and user friendly way to showcase my work.",
+    "page": "ReactMasonryGrid"
   },
   {
     "id": 13,
@@ -182,7 +182,7 @@
     "itemImg": "../images/Purina_Biz_Cards_Preview@2x.jpg",
     "header": "Nestle-Purina Business Card Design",
     "tags": ["Design", "InDesign"],
-    "excerpt": "Do you know Nestle the chocolate company? And do you know Purina the dog food company? Well, apparently they merged into Nestle Purina...",
+    "excerpt": "Wanna hear something I find kinda strange... Nestle the cholodate company merged with Purina the dog food company to form Nestle-Purina. Why? I have no idea.",
     "page": "NestlePurina"
   },
   {
