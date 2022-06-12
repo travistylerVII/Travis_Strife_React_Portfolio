@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderImg from "../assets/Golftroop-page-header.jpg";
 import CompanyImage from "../assets/Golftroop_Company_Logo@2x.jpg";
-function DeliciousLPTheme() {
+function GolfTroop() {
   return (
     <div className="page-content text-lg">
       <div className="lg:mx-[-100px] mx-[-40px] lg:mt-[-100px] mt-[-40px] mb-[30px]">
@@ -47,4 +47,4 @@ function DeliciousLPTheme() {
   );
 }
 
-export default DeliciousLPTheme;
+export default GolfTroop;

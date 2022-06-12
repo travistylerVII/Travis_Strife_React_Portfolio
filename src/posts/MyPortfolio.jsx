@@ -12,7 +12,7 @@ import CodeScreen2 from "../assets/Portfolio_Code_Screen_2@2x.jpg";
 import CodeScreen3 from "../assets/Portfolio_Code_Screen_3@2x.jpg";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-function DeliciousLPTheme() {
+function MyPortfolio() {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
 
@@ -236,4 +236,4 @@ function DeliciousLPTheme() {
   );
 }
 
-export default DeliciousLPTheme;
+export default MyPortfolio;

@@ -10,7 +10,7 @@ import Image4 from "../assets/TLA_Page_Previews04@2x.jpg";
 import Image5 from "../assets/TLA_Page_Previews05@2x.jpg";
 import FigmaScreen from "../assets/tla_figma_screen.jpg";
 import { FaExternalLinkAlt } from "react-icons/fa";
-function DeliciousLPTheme() {
+function TLAWebsite() {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
 
@@ -173,4 +173,4 @@ function DeliciousLPTheme() {
   );
 }
 
-export default DeliciousLPTheme;
+export default TLAWebsite;

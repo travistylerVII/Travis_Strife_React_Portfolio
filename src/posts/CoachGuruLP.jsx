@@ -8,7 +8,7 @@ import Image2 from "../assets/Coach_Guru_Screens_02@2x.jpg";
 import Image3 from "../assets/Coach_Guru_Screens_03@2x.jpg";
 import Image4 from "../assets/Coach_Guru_Screens_04@2x.jpg";
 import Image5 from "../assets/Coach_Guru_Screens_05@2x.jpg";
-function DeliciousLPTheme() {
+function CoachGuru() {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
 
@@ -97,4 +97,4 @@ function DeliciousLPTheme() {
   );
 }
 
-export default DeliciousLPTheme;
+export default CoachGuru;

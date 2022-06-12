@@ -22,6 +22,7 @@ import LeadmagnetFunnel from "../posts/LeadmagnetFunnel";
 import REFacebookAdFunnel from "../posts/REFacebookAdFunnel";
 import WhiteRabbitExpress from "../posts/WhiteRabbitExpress";
 import YogaLandingPage from "../posts/YogaLandingPage";
+import CardFlipGame from "../posts/CardFlipGame";
 
 const Portfolio = (props) => {
   const [posts, setPosts] = useState([]);
@@ -85,6 +86,7 @@ const Portfolio = (props) => {
           {modalData.page === "ReactMasonryGrid" ? <ReactMasonryGrid /> : ""}
           {modalData.page === "GolfTroop" ? <GolfTroop /> : ""}
           {modalData.page === "LeadmagnetFunnel" ? <LeadmagnetFunnel /> : ""}
+          {modalData.page === "CardFlipGame" ? <CardFlipGame /> : ""}
           {modalData.page === "REFacebookAdFunnel" ? (
             <REFacebookAdFunnel />
           ) : (

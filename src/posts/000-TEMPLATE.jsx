@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderImg from "../assets/Theleadagent_page_header@2x.jpg";
-import CompanyImage from "../assets/The_Lead_Agent_Logo.png";
+import CompanyImage from "../assets/MooreMedia_Company_Icon.png";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import Image1 from "../assets/TLA_Page_Previews01@2x.jpg";

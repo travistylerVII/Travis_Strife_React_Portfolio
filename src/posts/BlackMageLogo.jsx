@@ -3,7 +3,7 @@ import HeaderImg from "../assets/Black-Mage-Logo-Header.jpg";
 import CompanyImage from "../assets/Black_Mage_Media_Company_Icon.png";
 
 import FigmaScreen from "../assets/tla_figma_screen.jpg";
-function DeliciousLPTheme() {
+function BlackMageLogo() {
   return (
     <div className="page-content text-lg">
       <div className="lg:mx-[-100px] mx-[-40px] lg:mt-[-100px] mt-[-40px] mb-[30px]">
@@ -51,4 +51,4 @@ function DeliciousLPTheme() {
   );
 }
 
-export default DeliciousLPTheme;
+export default BlackMageLogo;

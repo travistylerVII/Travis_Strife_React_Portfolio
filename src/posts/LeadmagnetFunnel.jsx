@@ -2,7 +2,7 @@ import React from "react";
 import HeaderImg from "../assets/Leadmagnet_Landing_Page_Header.jpg";
 import CompanyImage from "../assets/Copyking_Company_Icon.png";
 
-function DeliciousLPTheme() {
+function LeadmagnetFunnel() {
   return (
     <div className="page-content text-lg">
       <div className="lg:mx-[-100px] mx-[-40px] lg:mt-[-100px] mt-[-40px] mb-[30px]">
@@ -47,4 +47,4 @@ function DeliciousLPTheme() {
   );
 }
 
-export default DeliciousLPTheme;
+export default LeadmagnetFunnel;

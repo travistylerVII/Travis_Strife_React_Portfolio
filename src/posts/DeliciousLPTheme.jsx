@@ -7,7 +7,7 @@ import Image1 from "../assets/delicious_screen1@2x.jpg";
 import Image2 from "../assets/delicious_screen2@2x.jpg";
 import Image3 from "../assets/delicious_screen3@2x.jpg";
 import { FaGithub } from "react-icons/fa";
-function Realtytotherescue() {
+function DeliciousLPTheme() {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
 
@@ -142,4 +142,4 @@ function Realtytotherescue() {
   );
 }
 
-export default Realtytotherescue;
+export default DeliciousLPTheme;

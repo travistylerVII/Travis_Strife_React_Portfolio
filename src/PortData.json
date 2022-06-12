@@ -11,24 +11,15 @@
   },
   {
     "id": 2,
-    "company": "Leadpages.net",
-    "companyImg": "../images/leadpages_logo.png",
-    "itemImg": "../images/delicious_lp_theme_preview.jpg",
-    "header": "Restaurant Landing Page Theme",
-    "tags": [
-      "Design",
-      "Development",
-      "HTML",
-      "CSS",
-      "JSON",
-      "Bootstrap",
-      "Javascript",
-      "Photoshop",
-      "Figma"
-    ],
-    "excerpt": "Like most of the themes I created for Leadpages.net, this theme was created because I spotted a gap in the market...",
-    "page": "DeliciousLPTheme"
+    "company": "Moore Media LLC",
+    "companyImg": "../images/MooreMedia_Company_Icon.png",
+    "itemImg": "../images/card_matching_game_video_preview.mp4",
+    "header": "Card Matching Game",
+    "tags": ["Design", "Development", "HTML", "CSS", "Javascript"],
+    "excerpt": "I try and code everyday if have time to maintain my programming sills and sometimes I think of a cool small project to build and do it. This is one of those projects. A simple card matching game build just with HTML, CSS and Javascript. No frameworks.",
+    "page": "CardFlipGame"
   },
+
   {
     "id": 3,
     "company": "Pridefit",
@@ -222,5 +213,25 @@
     ],
     "excerpt": "Designed for yoga studios, surprisingly this Leadpages landing page theme was one of Leadpages top-rated themes in their marketplace!",
     "page": "YogaLandingPage"
+  },
+  {
+    "id": 2,
+    "company": "Leadpages.net",
+    "companyImg": "../images/leadpages_logo.png",
+    "itemImg": "../images/delicious_lp_theme_preview.jpg",
+    "header": "Restaurant Landing Page Theme",
+    "tags": [
+      "Design",
+      "Development",
+      "HTML",
+      "CSS",
+      "JSON",
+      "Bootstrap",
+      "Javascript",
+      "Photoshop",
+      "Figma"
+    ],
+    "excerpt": "Like most of the themes I created for Leadpages.net, this theme was created because I spotted a gap in the market...",
+    "page": "DeliciousLPTheme"
   }
 ]

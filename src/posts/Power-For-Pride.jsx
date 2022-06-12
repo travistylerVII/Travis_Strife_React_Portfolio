@@ -9,7 +9,7 @@ import Image3 from "../assets/pfp_screen-3.jpg";
 import Image4 from "../assets/pfp_screen-4.jpg";
 import Image5 from "../assets/pfp_screen-5.jpg";
 import PfpPhotoshop from "../assets/pfp_photoshop.jpg";
-function DeliciousLPTheme() {
+function PowerForPride() {
   const [width, setWidth] = useState(0);
   const carousel = useRef();
 
@@ -121,4 +121,4 @@ function DeliciousLPTheme() {
   );
 }
 
-export default DeliciousLPTheme;
+export default PowerForPride;
