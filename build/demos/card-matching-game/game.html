@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Match Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="javascript.js"></script>
+  </head>
+  <body>
+    
+
+    <h1 class="text-center">Card Match Game</h1>
+  <div id="container" class="container flex">
+      <div id="game-board"></div>
+      <div class="score-board">
+        <div class="score-board-panel">
+          <h2 class="text-center">Score Board</h2>
+          <div>
+            <h3>Objective:</h3>
+            <p>Try and get under 30 moves total and win a special prize!</p>
+          </div>
+          <hr />
+          <div>
+          <h3>Total Moves:</h3>
+          <p class="total-moves">0</p>
+        </div>
+        <div>
+          <h3>Matching Pairs:</h3>
+          <p class="matching-pairs-score">0</p>
+        </div>
+          
+        </div>
+        <div class="text-center">
+          <button>Reset Game</button>
+        </div>
+      </div>
+      </div>
+      </div>
+  </div>
+  <div class="footer text-center">© 2022 Moore Media LLC All Rights Reserved</div>
+</body>
+<div class="modal hide1">
+  <div class="modal-content">
+   
+    <h1 class="winning-title">🎉  Congrats, You Won! 🎁</h1>
+    <p>Great work! Heres your grand prize!</p>
+
+    <video width="520" autoplay muted>
+      <source src="media/grandPrizeVideo.mp4" type="video/mp4">
+    </video>
+    <div class="winning-message"></div>
+  </div>
+</div>
+<div class="modal hide2">
+  <div class="modal-content">
+    
+    <h1 class="winning-title">You won...I guess</h1>
+    <p>Here is your participation trophy! Yippy.</p>
+    <img src="media/trophy.png" />
+  </div>
+</div>
+
+</html>

@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderVideo from "../assets/card_matching_game_video_preview.mp4";
 import CompanyImage from "../assets/MooreMedia_Company_Icon.png";
-
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 function CardFlipGame() {
   return (
@@ -35,6 +35,28 @@ function CardFlipGame() {
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
+          <div className="flex md:justify-end md:items-end mb-5">
+            <div className="mr-[10px] md:ml-[10px] md:mr-[0px] md:order-last">
+              <a
+                href="/demos/card-matching-game/game.html"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaExternalLinkAlt size={30} />
+              </a>
+            </div>
+            <div>
+              <span className="text-sm self-center">
+                <a
+                  href="/demos/card-matching-game/game.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Play Game
+                </a>
+              </span>
+            </div>
+          </div>
           <div className="flex md:justify-end md:items-end mb-5">
             <div className="mr-[10px] md:ml-[10px] md:mr-[0px] md:order-last">
               <a
