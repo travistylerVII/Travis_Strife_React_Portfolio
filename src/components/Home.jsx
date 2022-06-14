@@ -10,7 +10,7 @@ const home = () => {
     >
       <div className="px-5 lg:w-[700px] mb-[150px]">
         <h2 className="hero-subheader text-[#28e6ca] text-3xl mb-5">
-          Hey there, my names Travis!
+          Hey there, my name is Travis!
         </h2>
         <h1 className="hero-header text-5xl sm:text-6xl font-bold text-white">
           I design and develop persuasive websites and apps
