@@ -21,20 +21,10 @@ const about = () => {
           </h4>
           <div className="mt-[20px] text-[18px]">
             <p className="mb-4">
-              Technology is at the forefront of solving some of the biggest
-              problems in this world and I want to be a part of it.
+              Technology is at the forefront of solving some of the biggest problems in this world and I want to be a part of it.
             </p>
             <p>
-              As early as I could remember I have always been passionate about technology and
-              design. Around age 12, shortly after my family brought home our
-              first home computer, I remember going to the book store to buy my
-              very first programming book "HTML: A beginners guide by Wendy
-              Willard". I read that book from cover to cover jumpstarting my
-              career in the web-dev at an early age. Since then I have improved
-              my skills dramatically with not just coding, but also designing
-              for the web as well. This is a lifelong journey of growth for me
-              and I look forward to adding more value to this world as I
-              continue to progress.
+              As early as I could remember I have always been passionate about technology and design. Around age 12, shortly after my family brought home our first home computer, I remember going to the book store to buy my very first web programming book "HTML: A beginners guide by Wendy Willard". I read that book from cover to cover jumpstarting my career in the web-dev. Since then I have improved my skills dramatically with not just front-end and back-end development, but also with graphic UX/IU design as well. This is a lifelong journey of growth for me and I look forward to adding more value to this world as I continue to progress.
             </p>
           </div>
         </div>
