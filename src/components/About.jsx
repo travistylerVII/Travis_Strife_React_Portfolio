@@ -22,11 +22,10 @@ const about = () => {
           <div className="mt-[20px] text-[18px]">
             <p className="mb-4">
               Technology is at the forefront of solving some of the biggest
-              problems in this world and I want to be a part of it. As early as
-              I
+              problems in this world and I want to be a part of it.
             </p>
             <p>
-              could remember I have always been passionate about technology and
+              As early as I could remember I have always been passionate about technology and
               design. Around age 12, shortly after my family brought home our
               first home computer, I remember going to the book store to buy my
               very first programming book "HTML: A beginners guide by Wendy
