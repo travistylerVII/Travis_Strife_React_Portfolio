@@ -35,7 +35,7 @@ function App() {
       <About />
       <Contact />
       <div className="footer text-center text-white py-10">
-        © 2022 Moore Media LLC All Rights Reserved
+        © 2023 Moore Media LLC All Rights Reserved
       </div>
     </div>
   );
