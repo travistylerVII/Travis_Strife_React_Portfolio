@@ -2,7 +2,6 @@ import React from "react";
 import HeaderVideo from "../assets/React_Masonry_Grid_Filter_Video_Preview_800_600.mp4";
 import CompanyImage from "../assets/MooreMedia_Company_Icon.png";
 
-import { FaGithub } from "react-icons/fa";
 function ReactMasonryGrid() {
   return (
     <div className="page-content text-lg">

@@ -23,6 +23,7 @@ import REFacebookAdFunnel from "../posts/REFacebookAdFunnel";
 import WhiteRabbitExpress from "../posts/WhiteRabbitExpress";
 import YogaLandingPage from "../posts/YogaLandingPage";
 import CardFlipGame from "../posts/CardFlipGame";
+import TidyCactus from "../posts/TidyCactus";
 
 const Portfolio = (props) => {
   const [posts, setPosts] = useState([]);
@@ -67,7 +68,7 @@ const Portfolio = (props) => {
                 setModalData={setModalData}
               />
             );
-          })}
+          }).reverse()}
         </AnimatePresence>
 
         <Modal isOpened={isModalOpened} onClose={() => setIsModalOpened(false)}>
@@ -87,16 +88,9 @@ const Portfolio = (props) => {
           {modalData.page === "GolfTroop" ? <GolfTroop /> : ""}
           {modalData.page === "LeadmagnetFunnel" ? <LeadmagnetFunnel /> : ""}
           {modalData.page === "CardFlipGame" ? <CardFlipGame /> : ""}
-          {modalData.page === "REFacebookAdFunnel" ? (
-            <REFacebookAdFunnel />
-          ) : (
-            ""
-          )}
-          {modalData.page === "WhiteRabbitExpress" ? (
-            <WhiteRabbitExpress />
-          ) : (
-            ""
-          )}
+          {modalData.page === "REFacebookAdFunnel" ? <REFacebookAdFunnel /> : ""}
+          {modalData.page === "WhiteRabbitExpress" ? <WhiteRabbitExpress /> : ""}
+          {modalData.page === "TidyCactus" ? <TidyCactus /> : ""}
         </Modal>
       </div>
     </div>

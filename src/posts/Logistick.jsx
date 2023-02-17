@@ -23,13 +23,10 @@ function Logistick() {
           <h1 className="text-5xl mb-10">Logistick Logo</h1>
           <h2>Project Overview</h2>
           <p>
-            Logistick Promotions is a company that creates marketing materials
-            that stick. You know, like stickers and magnets.
+          Logistic Promotions is a company specializing in creating marketing materials that are designed to stick, such as stickers and magnets. Our goal is to help businesses create effective promotional campaigns by providing them with high-quality and eye-catching marketing materials.
           </p>
           <p>
-            This project was pretty simple. Design a logo in which you can
-            understand basically what the company is all about within a matter
-            of seconds. That's the idea anyway.
+          For this particular project, my objective was to design a logo that immediately communicates the essence of the company. I designed a logo that conveys the concept of sticking in just a few seconds, so that potential customers could easily understand what they are about. The logo is a vital part of our branding strategy, and I was committed to creating a design that is memorable, engaging, and aligns with our overall mission.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">

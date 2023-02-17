@@ -233,5 +233,22 @@
     ],
     "excerpt": "Like most of the themes I created for Leadpages.net, this theme was created because I spotted a gap in the market...",
     "page": "DeliciousLPTheme"
+  },
+  {
+    "id": 19,
+    "company": "Tidy Cactus Cleaning Co.",
+    "companyImg": "../images/tidy-cactus-small-logo@2x.png",
+    "itemImg": "../images/tidy-cactus-preview@2x.jpg",
+    "header": "Tidy Cactus Company Website & Branding",
+    "tags": [
+      "Design",
+      "Development",
+      "HTML",
+      "CSS",
+      "Wordpress",
+      "Figma"
+    ],
+    "excerpt": "Like most of the themes I created for Leadpages.net, this theme was created because I spotted a gap in the market...",
+    "page": "TidyCactus"
   }
 ]
