@@ -2,7 +2,6 @@ import React from "react";
 import HeaderImg from "../assets/Black-Mage-Logo-Header.jpg";
 import CompanyImage from "../assets/Black_Mage_Media_Company_Icon.png";
 
-import FigmaScreen from "../assets/tla_figma_screen.jpg";
 function BlackMageLogo() {
   return (
     <div className="page-content text-lg">
