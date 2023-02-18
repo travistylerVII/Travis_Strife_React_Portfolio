@@ -37,27 +37,42 @@ function MyPortfolio() {
           </h1>
           <h2>Project Overview</h2>
           <p>
-            Thanks for checking out my portfolio page about my portfolio, while
-            being on my portfolio....whoa so meta right now.
+            Welcome to my portfolio page about my portfolio. (So meta!)
           </p>
           <p>
-            I wanted to design and develop my portfolio site from scratch
-            because I feel designers and developers who don&#39;t are posers.
-            That&#39;s why I chose the time-consuming, but way more fun route of
-            designing my portfolio in Figma, and hand-coding it using React and
-            Tailwind CSS.
+            I chose to design and develop my portfolio site from scratch because
+            I feel like it would be hard to trust a designer who uses a
+            ThemeForest template or a developer who has a plug-and-play
+            Wordpress website. But hey, that's just my opinion.
+          </p>
+          <p>
+            That's why I chose the time-consuming, but way more fun route of
+            designing my portfolio in Figma, and hand-coding it using HTML, CSS,
+            Javascript, React and Tailwind!
+          </p>
+          <p>
+            It was way more work, but now I don’t have to deal with bloated
+            Wordpress code and have full customization.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
           <div className="flex md:justify-end md:items-end mb-5">
             <div className="mr-[10px] md:ml-[10px] md:mr-[0px] md:order-last">
-              <a href="https://travistmoore.com/" target="_blank">
+              <a
+                href="https://travistmoore.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 <FaExternalLinkAlt size={30} />
               </a>
             </div>
             <div>
               <span className="text-sm self-center">
-                <a href="https://travistmoore.com/" target="_blank">
+                <a
+                  href="https://travistmoore.com/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Website URL
                 </a>
               </span>
@@ -67,6 +82,7 @@ function MyPortfolio() {
             <div className="mr-[10px] md:ml-[10px] md:mr-[0px] md:order-last">
               <a
                 href="https://github.com/tstrife777/Travis_Strife_React_Portfolio"
+                rel="noreferrer"
                 target="_blank"
               >
                 <FaGithub size={30} />
@@ -76,6 +92,7 @@ function MyPortfolio() {
               <span className="text-sm self-center">
                 <a
                   href="https://github.com/tstrife777/Travis_Strife_React_Portfolio"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Github Repository
@@ -103,7 +120,7 @@ function MyPortfolio() {
       </div>
       <div>
         <p>
-          <img src={FigmaScreen} />
+          <img src={FigmaScreen} alt="figmascreen" />
         </p>
         <p>More work, but I love how it turned out. </p>
       </div>
@@ -130,107 +147,107 @@ function MyPortfolio() {
         </motion.div>
       </motion.div>
       <div>
-        <h2 id="problem-and-solution">Problem and Solution</h2>
-        <h3 id="background-image-blur-on-scroll">
-          Background image blur on scroll
-        </h3>
+        <h2>Problem and Solution</h2>
+        <h3>Problem #1: Background image blur on scroll</h3>
         <p>
           The first problem I faced was figuring out the best way to get the
-          background image to blur when I scrolled down past the hero section,
-          and unblur when I scrolled back up to the top. This is not something
-          you see on websites a lot, so this is something I don&#39;t do often.
+          background image to blur when scrolling down past the hero section,
+          and unblur when scrolling back up to the top. This is not something
+          you see on websites a lot, so it was something I don't often do.
         </p>
         <p>
-          At first thought I was thinking the best way to achieve this effect
-          was to create some Javascript code that listened to the vertical
-          scroll value and then in real time it would update the opacity of the
-          background image in real-time as you scrolled up or down.
-        </p>
-        <p>...Whoa, was I way off!</p>
-        <p>
-          After thinking about it for a minute and pondering if web development
-          is the right career choice for me, I quickly realized how dumb of an
-          idea that was and thought of something less overly engineered.
+          At first, I thought the best way to achieve this effect was to
+          create some Javascript code that listened to the vertical scroll
+          value and then update the opacity of the background image in real
+          time as you scrolled up or down. However, after some thought, I
+          realized how complex and unnecessary this was.
         </p>
         <p>
-          That&#39;s kinda the goto mental model I have taught myself these days
-          when I think about problems like this. I have realized that the very
-          first solution I often come up with may in theory work, but more often
-          or not is perhaps the most complex of options. That&#39;s why I have
-          trained myself to step away for a minute or two, in the beginning, to
-          settle down a little and gather my thoughts more so I can let my mind
-          manifest a simpler solution. The majority of the time it does.
+          Instead, I decided to listen to the vertical scroll value and
+          trigger a custom class to be added or removed when it hits a
+          specific scroll value. The class had a blur
+          transition-timing-function and filter: blur effect in the CSS. This
+          solution was much simpler and effective.
         </p>
         <p>
-          In this case, all I needed to still listen to the vertical Scroll
-          value, but instead of changing the opacity of the background element
-          in real time, I just needed it to trigger when it hit a specific
-          scroll value and then add or remove a custom class. A class with a
-          blur transition-timing-function and filter: blur effect in the CSS.
+          <img src={CodeScreen3} alt="CodeScreen3" />
         </p>
-        <p>
-          <img src={CodeScreen3} />
-        </p>
-        <p>
-          An easy solution in hindsight, luckily I didn&#39;t just blindly jump
-          into the first idea I thought of. Thanks, wisdom!
-        </p>
-        <h3 id="portfolio-item-filter-animation">
-          Portfolio Item Filter Animation
-        </h3>
+        <h3>Problem #2: Portfolio Item Filter Animation</h3>
         <p>
           The next thing I needed to build out was my Portfolio Item Filter
-          Animation thingy.
+          Animation. Luckily, I have worked with the Framer-Motion library in
+          the past and knew it would be perfect for the job. After combing
+          through their documentation, combined with a Youtube video, and
+          tinkering with the animation transitions, I put together a solid
+          filter effect for my portfolio items.
         </p>
         <p>
-          Luckily I have worked with the Framer-Motion library in the past and
-          knew it would be perfect for a job like this. After extensively
-          combing through their documentation, combined with a Youtube video or
-          two and tinkering with the animation transitions I put together a
-          solid filter effect for my portfolio items.
+          I really wanted the viewer to see with clarity all the projects I
+          have worked on in the past based on the skill/tech stack they were
+          created with. I am addicted to learning new modern tech that will
+          help me achieve my results in a more efficient way so there are a
+          lot of technologies I have learned and used that I have created
+          projects with.
         </p>
         <p>
-          <img src={CodeScreen1} />
+          <img src={CodeScreen1} alt="CodeScreen1" />
         </p>
-        <p>Next up was adding the modal windows. </p>
-        <h3 id="adding-modals">Adding Modals</h3>
-        <p>
-          Coding a modal from scratch in React is not as easy as you would
-          think. But hey, nothing is these days with modern web development.
-          Everything is more complex than it needs to be it seems.
+        <h3>Popup Modal</h3>
+          <p>
+            Coding a modal from scratch in React is not as easy as you would
+            think. But hey, nothing is these days with modern web development.
+            Everything is more complex than it needs to be it seems.
+          </p>
+          <p>
+            The problem I had after coding my Modal component was that It would
+            pop up like normal, however, the background would still scroll when
+            using the scroll wheel along with other issues I won't get into now.
+          </p>
+          <p>
+            On any normal static site, you can easily code it so an overlay div
+            goes outside of the body tag allowing you to have full control.
+          </p>
+          <p>
+            So the easy solution would be to just put your modal overlay tags
+            outside of the body tag. Unfortunately, all components you create in
+            your React app are inside the body tag, and there is nothing you can
+            do about it! Well, except for using a React Portal.
+          </p>
+          <p>
+            I decided to use a React Portal to provide a first-class way to
+            render children into a DOM node that exists outside the DOM
+            hierarchy of the parent component. This solved the problem, and now
+            I have a nice custom-made modal window where I have full control.
+          </p>
+          <p>
+          <img src={CodeScreen2} alt="CodeScreen2" />
         </p>
-        <p>
-          The problem I had after coding my Modal component was that It would
-          pop up like normal, however, the background would still scroll when
-          using the scroll wheel along with other issues I won&#39;t get into
-          now.
-        </p>
-        <p>
-          On any normal static site, you can easily code it so an overlay div
-          goes outside of the body tag allowing you to have full control.
-        </p>
-        <p>
-          <img src={CodeScreen2} />
-        </p>
-        <p>
-          So the easy solution would be to just put your modal overlay tags
-          outside of the body tag. Easy enough right....haha you react noob,
-          things aren&#39;t that simple!
-        </p>
-        <p>
-          Unfortunately, all components you create in your React app are inside
-          the body tag and there is nothing you can do about it! Well except for
-          using a React Portal I guess.
-        </p>
-        <p>
-          A Portal provides a first-class way to render children into a DOM node
-          that exists outside the DOM hierarchy of the parent component.
-        </p>
-        <p>
-          So that&#39;s basically how I solved this problem and now I have a
-          nice custom-made modal window where I have full control.
-        </p>
-        <p>First this website... next, the world! Watch out now!</p>
+        <h3>Final Words</h3>
+          <p>
+            In conclusion, designing and developing my portfolio site from
+            scratch was a great learning experience. It allowed me to showcase
+            my design and development skills in a more meaningful way and to
+            solve some interesting problems along the way.
+          </p>
+          <p>
+            I enjoyed using Figma to design the site and React and Tailwind CSS
+            to code it. The background image blur on scroll was a challenging
+            problem that I was able to solve with a simple solution. I also used
+            the Framer-Motion library to create a filter animation for my
+            portfolio items and built custom modal windows with the help of a
+            React Portal.
+          </p>
+          <p>
+            Overall, the experience taught me the importance of taking a step
+            back to consider simpler solutions before jumping into complex ones.
+            It also showed me the value of using existing libraries and tools to
+            streamline development.
+          </p>
+          <p>
+            I am proud of the final product and excited to continue building
+            upon it as I progress in my career.
+          </p>
+        
       </div>
     </div>
   );

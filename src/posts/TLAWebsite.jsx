@@ -33,14 +33,12 @@ function TLAWebsite() {
           <h1 className="text-5xl mb-10">Real Estate Marketing Agency</h1>
           <h2>Project Overview</h2>
           <p>
-            The Lead Agent is a digital marketing agency that specializes in
-            helping Real Estate Agents, Brokers, and Mortgage Loan Officers
-            capture and convert leads into closed deals.
-          </p>
-          <p>
-            The services it provides range from creating ads, building funnels,
-            marketing automation, training, and more.
-          </p>
+    As the designer and developer and founder of The Lead Agent, my role was to
+    set up a simple, yet effective website that would help capture and convert
+    leads for real estate agents, brokers, and mortgage loan officers. I was
+    responsible for defining the target audience, understanding their biggest
+    pain points, and developing a solution that would be attractive to them.
+</p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
           <div className="flex md:justify-end md:items-end mb-5">
@@ -107,67 +105,90 @@ function TLAWebsite() {
         </motion.div>
       </motion.div>
       <div>
-        <h2>My Role</h2>
+      <h2>Design</h2>
+      <p>
+    The design for theleadagent.com required a sleek and polished aesthetic. In
+    order to highlight the efficacy of our services and its potential impact on
+    the users, on the homepage I opted to create a striking hero section featuring a woman
+    intently looking down at her phone amidst a flurry of text bubbles and a
+    queue of messages, effectively capturing the volume of leads and
+    conversations that await the user.
+</p>
+<p>
+    Beneath the hero section, we prominently displayed trust logos of reputable
+    companies we have worked with, reinforcing our credibility and reliability.
+</p>
+<p>
+    Directly following the trust logos section, I sought to express our
+    services with two clear and concise sections. On the left, we conveyed the
+    message that we provide our real estate clients with a hassle-free and
+    efficient process, essentially teeing up the ball for them so that all they
+    have to do is sell, essentially knocking it out of the park metaphorically
+    speaking.
+</p>
         <p>
-          As the Founder and CEO of this company was in charge of everything
-          until I needed to hire out.
+<img src={FigmaScreen} alt="tlascreenshot"/>
+
         </p>
-        <p>
-          Everything from defining the target audience. Figuring out their
-          biggest problem and pain points. Develop a solution and package it
-          into an offer. Crystalizing the message, and writing copy that
-          captures and converts leads into strategy calls, hiring, delegating,
-          systematizing, and more.
-        </p>
-        <p>
-          Basically, everything that's typically expected from a founder of a
-          bootstrapped startup.
-        </p>
-        <h2>Problem / Solution</h2>
-        <p>
-          The last thing I wanted to do before I got my first client was to get
-          in the red with a bunch of unnecessary expenses. So I knew I needed to
-          keep the costs minimal and move fast.
-        </p>
-        <p>
-          That's why I decided to go with WordPress as the CRM and Amazon AWS as
-          the hosting. No need to spend the time custom coding anything since it
-          was a simple 3-4 page status informational website.
-        </p>
-        <p>
-          I could have sped up the processes a little more by going with a drag
-          and drop platforms like Leadpages and Clickfunnels and just put
-          together a 1-page landing page to start, but given my 15 years of
-          experience with WordPress and the $3 AWS Lightsail hosting expense, I
-          determined that was the best option for my situation as I wanted to
-          keep the costs down.
-        </p>
-        <p>
-          Here are my basic setup operating procedures below. This is on the fly
-          and from memory, so forgive me if I miss a step.
-        </p>
-        <ol>
-          <li>Buy domain (Google domains)</li>
-          <li>Setup Host - Amazon AWS Lightsail Add WordPress instance</li>
-          <li>Setup account in Cloudflare get nameservers</li>
-          <li>Change nameservers in Google Domains Account to Cloudflare</li>
-          <li>Setup Route 53 Hosted Zones in AWS</li>
-          <li>Log in to WordPress Change Username login credentials</li>
-          <li>Start adding plugins specifically Elementor</li>
-          <li>Configure and publish</li>
-        </ol>
-        <p>
-          The design was created in Photoshop for the image manipulation and
-          Figma for the layout. It was put together in WordPress using
-          Elementor.
-        </p>
-        <p>
-          <img alt="figma screenshot" src={FigmaScreen} />
-        </p>
-        <p>
-          The most time consuming part was creating the copy. But that's a story
-          for another day.
-        </p>
+<h2>Development</h2>
+<p>
+    The primary challenge was to create a functional website that was easy to
+    use and wouldn't break the bank given that this was a bootstrapped startup.
+    I knew I needed a cost-effective solution that could be set up quickly, and
+    that's why I decided to use WordPress as the CRM and Amazon AWS as the
+    hosting provider. This would allow me to keep costs to a minimum while
+    still delivering a quality product.
+</p>
+<p>
+    <strong>Setting up the website was a straightforward process:</strong>
+</p>
+<ol>
+    <li>
+        
+            Buy a domain from Google Domains
+        
+    </li>
+    <li>
+        
+            Setting up the host using Amazon AWS Lightsail, which was an
+            affordable hosting option. I also created a Route 53 Hosted Zones
+            in AWS to help with domain management.
+        
+    </li>
+    <li>
+        
+            Download Wordpress files and go through the Wordpress installation
+            process.
+        
+    </li>
+    <li>
+        
+            Once the hosting was set up, I logged into WordPress and changed
+            the username login credentials to improve security.
+        
+    </li>
+    <li>
+        
+            I then began adding the necessary plugins, including Elementor,
+            which is a drag-and-drop page builder that makes it easy to
+            customize the design of the website.
+        
+    </li>
+</ol>
+<p>
+    And that's it! A website from scratch in just 5 easy steps.
+</p>
+<p>
+    In the end, the website was up and running, and it has been instrumental in
+    capturing and converting leads for The Lead Agent's clients.
+</p>
+<p>
+    While the design and development process went smoothly, the biggest
+    challenge was creating the sales copy that would resonate with the target
+    audience. Nonetheless, the result was a simple, easy-to-use website that
+    served its intended purpose and helped The Lead Agent achieve its goals.
+</p>
+
       </div>
     </div>
   );

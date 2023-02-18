@@ -23,11 +23,22 @@ function Logistick() {
           <h1 className="text-5xl mb-10">Logistick Logo</h1>
           <h2>Project Overview</h2>
           <p>
-          Logistic Promotions is a company specializing in creating marketing materials that are designed to stick, such as stickers and magnets. Our goal is to help businesses create effective promotional campaigns by providing them with high-quality and eye-catching marketing materials.
+              Logistic Promotions is a company that specializes in creating high-quality
+              marketing materials that stick, such as stickers and magnets. As the lead
+              designer for the project, my primary goal was to create a logo that
+              encapsulated the essence of the company, while remaining instantly
+              recognizable and memorable.
           </p>
           <p>
-          For this particular project, my objective was to design a logo that immediately communicates the essence of the company. I designed a logo that conveys the concept of sticking in just a few seconds, so that potential customers could easily understand what they are about. The logo is a vital part of our branding strategy, and I was committed to creating a design that is memorable, engaging, and aligns with our overall mission.
+              To achieve this goal, I took on the challenge of creating a logo that
+              emulated the look of a sticker peeling up from the surface. This concept
+              was well received by the client, and I began the design process by
+              exploring various color schemes and fonts to achieve the perfect
+              combination.
           </p>
+          <div>
+              <br/>
+          </div>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
           <div>
@@ -48,32 +59,28 @@ function Logistick() {
       </div>
       <div>
         <p>
-          &quot;Let's create a logo to look like it's peeled up in an area to
-          represent a sticker feel!&quot; Those were the instructions given. I
-          like it. Sounds, easy enough, Let's get started...
-        </p>
-        <p>
           <img alt="Logistick Drafts" src={LogistickDraft} />
         </p>
         <p>
-          Several rough drafts were made with various color schemes and fonts
-          for variation.
-        </p>
+              After a series of rough drafts and design iterations, we arrived at a final
+              design that perfectly aligned with the company's vision and values.
+          </p>
         <p>
           <img alt="Logistick Proof" src={LogistickProof} />
         </p>
         <p>
-          After some back and forth on the design, we settled on the direction
-          of the design, and several color variations were presented.
+        The chosen design featured the letter "O" dropping away in the background, simulating the look of a sticker being peeled up.
         </p>
         <p>
           <img alt="Logistick Final" src={LogistickFinal} />
         </p>
         <p>
-          In the end, we decided to drop the O in the background where the
-          sticker was and settled on the final design, resulting in a very happy
-          client.
-        </p>
+              The final design was presented to the client in several color variations,
+              and the chosen logo was met with great enthusiasm. By creating a logo that
+              visually represents the company's core values and mission, we were able to
+              provide Logistic Promotions with a strong foundation for their branding
+              efforts.
+          </p>
       </div>
     </div>
   );

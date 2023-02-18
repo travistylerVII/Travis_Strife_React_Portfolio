@@ -34,13 +34,12 @@ function PowerForPride() {
           </h1>
           <h2 id="project-overview">Project Overview</h2>
           <p>
-            Power for pride is an unconventional spin on active fundraising — a
-            deadlifting event designed to raise money and build awareness for
-            Minneapolis homeless youth.
-          </p>
-          <p>
-            This was a custom Leadpages landing page theme request designed for
-            a fitness client based in Minneapolis.
+            I am excited to share my experience designing and developing a
+            custom Leadpages landing page theme for Power for Pride, a
+            deadlifting event designed to raise money and awareness for homeless
+            youth in Minneapolis. The client, a fitness organization based in
+            Minneapolis, provided me with their branding guide and copy, making
+            my job as the designer much easier.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
@@ -87,34 +86,41 @@ function PowerForPride() {
       </motion.div>
       <div>
         <p>
-          What was nice about this project was that the copy and branding guide
-          was provided. I love projects when the client provides much of the
-          heavy lifting.
+          My focus was on creating a design that was both visually appealing and
+          aligned with the client's brand. The clear requirements and branding
+          guide provided by the client allowed me to deliver the design quickly.
+          The final design showcased the event's purpose, with the branding
+          elements incorporated seamlessly.
         </p>
-        <p>
-          With not having to write creative copy and having to determine what
-          the colors and style should be, the design turnaround time was
-          lightning speed.
-        </p>
-        <p>The design was created in Photoshop.</p>
         <p>
           <img src={PfpPhotoshop} alt="Landing Page Photoshop Screenshot" />
         </p>
-        <p>Now on to the development part...</p>
         <p>
-          Overall developing a basic page like this is extremely simple.
-          Hardcoding just takes some simple HTML and CSS and with Bootstrap as a
-          framework, like the one I used for this project, this takes less than
-          an hour to complete.
+          However, the development process was not without its challenges.
+          Integrating the custom design into the Leadpages landing page editor
+          required me to hardcode each div element into a JSON object. This
+          process was time-consuming, but I was able to successfully complete
+          it.
         </p>
+
         <p>
-          However, in this case, I had to integrate it with the Leadpages (Now
-          Legacy) Landing page editor at the time.
+          The end result was a high-quality Leadpages landing page theme that
+          met the client's needs. The design was visually striking and the
+          messaging was clear, highlighting the purpose of the event and
+          encouraging people to participate. The seamless integration of the
+          branding elements ensured a cohesive look and feel throughout the
+          landing page.
         </p>
+
         <p>
-          That required me to hardcode each div element of the landing page into
-          a JSON object so their landing page editor can use it. Needless to
-          say, this was a time-consuming process.
+          In conclusion, this project was a great success. The clear
+          requirements and branding guide provided by the client, coupled with
+          my design and development skills, resulted in a high-quality landing
+          page theme. The design showcased the event's purpose, while the
+          development ensured the landing page was functional and integrated
+          seamlessly with the Leadpages editor. I am proud to have been a part
+          of this project and look forward to future opportunities to use my
+          skills to help clients achieve their goals.
         </p>
       </div>
     </div>

@@ -30,15 +30,19 @@ function DeliciousLPTheme() {
           <h1 className="text-5xl mb-10">Restaurant Landing Page Theme</h1>
           <h2>Project Overview</h2>
           <p>
-            Like most of the themes I created for Leadpages.net, this theme was
-            created because I spotted a gap in the market. With all the various
-            themes in the Leadpages marketplace at the time, there was not one
-            that catered to restaurant owners.
+            This case study highlights the development process of a Leadpages
+            landing page theme created specifically for restaurant owners. The
+            theme was designed to fill a gap in the market and cater to a high
+            demand that had been identified through feedback from Leadpages
+            users.
           </p>
+          <h2>Research &amp; Planning &amp; Design</h2>
           <p>
-            Now of course that could be because there was low demand, but
-            studying the comments and getting feedback from many Leadpages
-            users, a theme of this nature was in high demand.
+            The first step in the creative process was to identify the key
+            elements that the theme would need to have in order to cater to the
+            needs of restaurant owners. These elements included a hero section,
+            events section, popular/featured dishes section, menu section, about
+            section, testimonials, and call to action.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
@@ -105,39 +109,31 @@ function DeliciousLPTheme() {
         </motion.div>
       </motion.div>
       <p>
-        The hard part is designing it so it applied to a wide variety of the
-        different types of restaurant owners that used the platform.
-      </p>
-      <p>But I settled on these basic elements. </p>
-      <ol>
-        <li>Hero Section</li>
-        <li>Events Section</li>
-        <li>Popular / Featured Dishes Section</li>
-        <li>Menu Section</li>
-        <li>About Section</li>
-        <li>Testimonials</li>
-        <li>Call to action</li>
-      </ol>
-      <p>
-        After coming up with a game plan, it was time for the wireframe and
-        design.
+        Once the plan was in place, the design process began in Photoshop (Figma
+        was not popular at the time). I had to ensure that the design was
+        versatile enough to apply to a wide variety of different types of
+        restaurant owners that used the Leadpages platform. The color scheme,
+        layout, and illustrations were chosen to be simple, clean, and easily
+        customizable to match any restaurant's branding.
       </p>
       <p>
-        The design was created in Photoshop. This was before I switched to Figma
-        for most of all my website designs.
+        After the design was finalized, I presented it to potential prospects
+        for feedback. The response was overwhelmingly positive, and the design
+        was approved for coding.
+      </p>
+      <h2>Development</h2>
+      <p>
+        The coding process involved using HTML, CSS (Bootstrap), and JSON to
+        create the landing page theme. The JSON integration was necessary to
+        ensure compatibility with the Leadpages editor at the time.
       </p>
       <p>
-        After the design was finished, before I hardcoded it, I presented it to
-        some potential prospects that were planning on using it. They loved it.
+        After completion, the landing page theme was made available in the
+        Leadpages marketplace, and it quickly became one of the most downloaded
+        themes. By identifying a gap in the market and catering to the needs of
+        a specific demographic, the designer was able to create a successful
+        landing page theme that met the demands of the Leadpages user community.
       </p>
-      <p>After their approval, I went to coding. </p>
-      <p>
-        Hardcoding just takes some HTML, CSS (Bootstrap), and JSON. JSON was
-        needed to integrate it with the Leadpages editor at the time. Since then
-        they have switched to drag and drop editor.
-      </p>
-
-      <div></div>
     </div>
   );
 }

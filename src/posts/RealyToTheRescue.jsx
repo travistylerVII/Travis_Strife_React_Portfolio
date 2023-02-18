@@ -37,22 +37,12 @@ function Realtytotherescue() {
 
           <h2>Project Overview</h2>
           <p>
-            Realty To The Rescue is a real estate website with a twist. For
-            every home bought and sold with Barb, a percentage of the sale gets
-            donated to an animal charity of the buyer or seller's choice. Pretty
-            sweet deal if you ask me!
-          </p>
-          <p>
-            I had a lot of fun with this project because I fully support Barb's
-            cause.
-          </p>
-          <p>
-            <img alt="figma screenshot" src={FigmaScreen} />
-          </p>
-
-          <p>
-            The design was created in Figma and crafted in WordPress using
-            Elementor.
+            As the designer and developer for the Realty To The Rescue project,
+            I was excited to work with Barb Forsyth and her unique concept of
+            selling real estate while donating a percentage of each sale to an
+            animal charity of the buyer or seller's choice. Not only was I
+            passionate about the cause, but I also enjoyed the challenge of
+            integrating an IDX, a technology I had never worked with before.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
@@ -118,45 +108,45 @@ function Realtytotherescue() {
           })}
         </motion.div>
       </motion.div>
-      <h2>Problem and Solution</h2>
+      <h2>Problem & Solution</h2>
       <p>
-        The easy part was setting up WordPress, however, the part that was a
-        little more challenging, that I have never done until now, was
-        integrating an IDX.
-      </p>
-      <p>
-        An &quot;IDX&quot; stands for &quot;Internet Data Exchange&quot; and
-        basically what it does is allow real estate agents to display all the
-        properties that go into the MLS on their website automatically. Imagine
-        having to add and remove each property manually every-time one came on
-        the market and got sold. It would be a nightmare.
-      </p>
-      <p>
-        Luckily some genius(s) out there invented IDX's! However, with the
-        variety of options available on the market, each with its own complex
-        interfaces and setup procedures, things can be a little overwhelming and
-        quite confusing.
-      </p>
-      <p>
-        Eventually, I managed to settle on ihomefinder.com for my solution. Out
-        of all the options I researched, this one had the best track record and
-        after a bit of a learning curve, it was fairly easy to set up and
-        configure.
-      </p>
-      <p>
-        <img alt="IDX screenshot" src={IDXScreen} />
-      </p>
-      <p>
-        The only gripe I have was the lack of options in the UI to customize the
-        design of the IDX front-end elements without diving into the code.
-        Trying to override CSS on ihomefinder servers is not the easiest thing
-        to do.
-      </p>
-      <p>
-        But I can't complain too much I guess. I love this stuff and always
-        enjoy a good challenge.
+        The first challenge I faced was setting up WordPress, which was fairly
+        easy given my experience with the platform. However, integrating an IDX
+        proved to be a little more challenging than I anticipated. An IDX allows
+        real estate agents to display all the properties that go into the MLS on
+        their website automatically, eliminating the need to manually add and
+        remove each property. After researching various options, I settled on
+        ihomefinder.com as my solution.
       </p>
 
+      <p>
+        While ihomefinder.com had the best track record and was easy to set up
+        and configure, it lacked options in the UI to customize the design of
+        the IDX front-end elements without diving into the code. Trying to
+        override CSS on ihomefinder servers was a challenge. However, I welcomed
+        this challenge and enjoyed the opportunity to learn more about the
+        technology.
+      </p>
+
+      <h2>The Design</h2>
+      <p>
+        <img alt="figma screenshot" src={FigmaScreen} />
+      </p>
+      <p>
+        The design was custom built in Figma and crafted in WordPress using
+        Elementor. I made sure to keep the design simple and user-friendly, so
+        users could easily navigate the site and find the properties they were
+        looking for. The site features a sleek, modern design that is both
+        visually appealing and functional.
+      </p>
+      <h2>Final Words</h2>
+      <p>
+        Overall, the Realty To The Rescue project was a success, and I was proud
+        to be a part of it. The site was well-received by users and received
+        positive feedback from Barb's clients. I thoroughly enjoyed working on
+        this project, and I look forward to working on more projects that
+        support causes I am passionate about in the future.
+      </p>
       <div></div>
     </div>
   );

@@ -31,13 +31,18 @@ function CoachGuru() {
           <h1 className="text-5xl mb-10">Coach Guru Landing Page Theme</h1>
           <h2>Project Overview</h2>
           <p>
-            A Leadpages Landing Page Theme designed specifically for coaching
+            The creation of a landing page that is optimized for the specific
+            needs of a target audience is a critical component of a successful
+            marketing campaign. For this reason, I created a Leadpages landing
+            page theme that was specifically designed for coaching
             professionals.
           </p>
           <p>
-            Leadpages demographic is like 90% life coaches. Ok maybe not 90% but
-            it sure seems like it. With that in mind, that&#39;s exactly why I
-            created this landing page for coaches.
+            Given that the overwhelming majority of Leadpages users are coaches
+            of some kind (Ok that might be a slight exaggeration), it was
+            essential to create a landing page that met their unique needs and
+            preferences. Therefore, I set out to create a page that would stand
+            out, while also delivering a clean, professional look and feel.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
@@ -84,13 +89,35 @@ function CoachGuru() {
       </motion.div>
       <div>
         <p>
-          Designed in Figma and Illustrator and Developed with HTML, CSS,
-          Bootstrap, and JSON (For the Leadpages V1 Editor).
+          The landing page theme was designed using the latest digital design
+          tools, including Figma and Illustrator. By utilizing these tools, we
+          were able to create a highly customizable design that would allow
+          coaches to tailor their pages to their specific needs. Additionally,
+          the theme was developed using HTML, CSS, Bootstrap, and JSON, which
+          ensured optimal functionality for the Leadpages V1 Editor.
         </p>
         <p>
-          What I like about this page is its color scheme, Illustrations, and
-          minimalistic design. This was one of our most downloaded landing pages
-          in the Leadpages marketplace!
+          One of the primary advantages of this landing page theme is its
+          exceptional color scheme, minimalistic design, and beautiful
+          illustrations. The colors were carefully chosen to create an
+          atmosphere of calm and serenity, while the illustrations added an
+          element of personality and character to the page.
+        </p>
+        <p>
+          The Leadpages landing page theme we created for coaching professionals
+          quickly became one of the most popular pages in the Leadpages
+          marketplace, with many coaches opting to use the design for their own
+          campaigns. This success speaks to the quality of our design work, and
+          the attention we paid to the needs of our target audience.
+        </p>
+        <p>
+          In conclusion, by designing a landing page theme that was optimized
+          for coaching professionals, I was able to deliver an outstanding
+          product that was both beautiful and highly functional. My focus on
+          creating a design that met the unique needs of our target audience,
+          coupled with the use of the latest design and development tools,
+          resulted in one of the most successful landing pages on the Leadpages
+          marketplace.
         </p>
       </div>
     </div>

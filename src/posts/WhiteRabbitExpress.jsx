@@ -20,12 +20,15 @@ function WhiteRabbitExpress() {
           </h1>
           <h2>Project Overview</h2>
           <p>
-            The White Rabbit Express is a shipping company that specializes in
-            shipping products from Japan.
+            As a designer, one of my first experiences with 99designs.com was
+            working with The White Rabbit Express, a shipping company that
+            specializes in shipping products from Japan. To my excitement, I won
+            the project and had a 100% win rate on the platform. Time to retire
+            on top!
           </p>
           <p>
-            This was one of the first and only projects I submitted to
-            99designs.com when I first learned about them and... I won!
+            This was a great start to my freelance career and it gave me the
+            confidence I needed to continue with my design work.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
@@ -50,30 +53,26 @@ function WhiteRabbitExpress() {
           <img src={WRWinnerScreen} alt="99 Designs Winner Sreenshot" />
         </p>
         <p>
-          Whoot Whoot! A 100% win rate on 99 Designs! I should probably quit
-          while I&#39;m on top and just advertise that. :)
+          The client provided the copy for the project, and I took that into
+          consideration when developing the design. My goal was to visually
+          represent the shipping process in the best way possible, while
+          maintaining a flat, minimalistic feel. I made sure to use only flat
+          shapes and plain colors and avoided using any drop shadows, gradients,
+          or background overlays. This approach allowed the design to remain
+          simple and easy to read, while still being aesthetically pleasing.
         </p>
-        <p>
-          With the client providing the copy, I took that into consideration to
-          visually represent the shipping process the best I could while still
-          maintaining a flat minimalistic feel.
-        </p>
-        <p>
-          No drop shadows, gradients, or background overlays were used. Just
-          flat shapes and plane colors. No over-engineering was necessary.
-        </p>
-        <p>Designed in Adobe Illustrator per clients request.</p>
         <p>
           <img src={WRIllustratorScreen} alt="99 Designs Winner Sreenshot" />
         </p>
         <p>
-          In the end, it was a simple design, that was easy to read and
-          understand and the client loved it.
+          By keeping the design simple, I was able to convey the important
+          information in a clear and concise manner. The client loved the final
+          result, and the design was a great success. I am grateful for the
+          opportunity to have worked with The White Rabbit Express, and I thank
+          99designs.com for providing me with this platform to showcase my
+          skills.
         </p>
-        <p>
-          After I won I took my winnings and got to finally retire. Thanks 99
-          designs!
-        </p>
+        <div></div>
       </div>
     </div>
   );

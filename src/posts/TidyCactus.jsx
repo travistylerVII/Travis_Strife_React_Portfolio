@@ -24,21 +24,23 @@ function TidyCactus() {
         <img src={HeaderImg} alt="Header" className="" />
       </div>
       <div className="company-title flex flex-col-2 space-x-4 mb-8">
-        <img src={CompanyImage} alt="Company" className="w-11 h-11 rounded-full" />
+        <img
+          src={CompanyImage}
+          alt="Company"
+          className="w-11 h-11 rounded-full"
+        />
         <h4 className="pt-2">tidycactus.com</h4>
       </div>
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
-          <h1 className="text-5xl mb-10">Tidy Cactus Cleaning Website & Branding</h1>
+          <h1 className="text-5xl mb-10">
+            Tidy Cactus Cleaning Website & Branding
+          </h1>
           <h2>Project Overview</h2>
           <p>
-            The Lead Agent is a digital marketing agency that specializes in
-            helping Real Estate Agents, Brokers, and Mortgage Loan Officers
-            capture and convert leads into closed deals.
-          </p>
-          <p>
-            The services it provides range from creating ads, building funnels,
-            marketing automation, training, and more.
+            I was approached by Tidy Cactus Cleaning, an cleaning company in Arizona, who were looking to grow but couldn't due to the lack of a website. The owner wanted a
+            clean, minimal style that was inspired by the boho style, which
+            suited the natural and organic ethos of the business.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
@@ -50,7 +52,11 @@ function TidyCactus() {
             </div>
             <div>
               <span className="text-sm self-center">
-                <a href="https://tidycactus.com" rel="noreferrer" target="_blank">
+                <a
+                  href="https://tidycactus.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Website URL
                 </a>
               </span>
@@ -98,66 +104,55 @@ function TidyCactus() {
         </motion.div>
       </motion.div>
       <div>
-        <h2>My Role</h2>
+        <h2>Problem & Solution</h2>
         <p>
-          As the Founder and CEO of this company was in charge of everything
-          until I needed to hire out.
+          The challenge was that there was no sales copy to work with, which is
+          a crucial element in designing a successful website. I utilized my
+          experience in writing website sales copy to create a framework that
+          included all the essential sections such as the top navigation, hero
+          section, call-to-action, features, benefits, testimonials, gallery,
+          FAQ, and footer. With this framework, I was able to create copy that
+          represented the business in a positive light.
+        </p>
+
+        <p>
+          One of the most important sections of the sales copy is the hero or
+          primary headline section. We crafted a bunch of headline ideas but
+          finally settled on "Offering the Valley Premium Cleaning At an
+          Affordable Price," with the Valley referring to the Phoenix, AZ valley
+          where Tidy Cactus operates. This headline conveyed that the business
+          offers premium services that won't break the bank, and we wanted to
+          ensure that readers understood this.
         </p>
         <p>
-          Everything from defining the target audience. Figuring out their
-          biggest problem and pain points. Develop a solution and package it
-          into an offer. Crystalizing the message, and writing copy that
-          captures and converts leads into strategy calls, hiring, delegating,
-          systematizing, and more.
-        </p>
-        <p>
-          Basically, everything that's typically expected from a founder of a
-          bootstrapped startup.
+          With the sales copy approved, I designed the website using Figma,
+          which is my preferred tool for most of my design projects. The design
+          was clean, minimal, and embraced the boho style that the client loved.
+          I also redesigned the logo, business cards, and marketing materials to
+          complement the website's design and complete the brand image.
         </p>
         <div className="mb-10">
-        <iframe title="Tidy Cactus" width="100%" height="550" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F26SDOofMVmi6jvr7z2H9Yt%2FWEBSITE---Tidy-Cactus-Shared%3Fnode-id%3D0%253A1%26t%3D2Daos1aSDgcSYjNm-1" allowFullScreen></iframe>
+          <iframe
+            title="Tidy Cactus"
+            width="100%"
+            height="550"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F26SDOofMVmi6jvr7z2H9Yt%2FWEBSITE---Tidy-Cactus-Shared%3Fnode-id%3D0%253A1%26t%3D2Daos1aSDgcSYjNm-1"
+            allowFullScreen
+          ></iframe>
         </div>
-        <h2>Problem / Solution</h2>
+        <h2>Development</h2>
         <p>
-          The last thing I wanted to do before I got my first client was to get
-          in the red with a bunch of unnecessary expenses. So I knew I needed to
-          keep the costs minimal and move fast.
+          For the development, I used WordPress and Elementor, which allowed me
+          to quickly and easily create the website, making it simple for the
+          client to edit and add content in the future.
         </p>
+        <h2>Final Words</h2>
         <p>
-          That's why I decided to go with WordPress as the CRM and Amazon AWS as
-          the hosting. No need to spend the time custom coding anything since it
-          was a simple 3-4 page status informational website.
-        </p>
-        <p>
-          I could have sped up the processes a little more by going with a drag
-          and drop platforms like Leadpages and Clickfunnels and just put
-          together a 1-page landing page to start, but given my 15 years of
-          experience with WordPress and the $3 AWS Lightsail hosting expense, I
-          determined that was the best option for my situation as I wanted to
-          keep the costs down.
-        </p>
-        <p>
-          Here are my basic setup operating procedures below. This is on the fly
-          and from memory, so forgive me if I miss a step.
-        </p>
-        <ol>
-          <li>Buy domain (Google domains)</li>
-          <li>Setup Host - Amazon AWS Lightsail Add WordPress instance</li>
-          <li>Setup account in Cloudflare get nameservers</li>
-          <li>Change nameservers in Google Domains Account to Cloudflare</li>
-          <li>Setup Route 53 Hosted Zones in AWS</li>
-          <li>Log in to WordPress Change Username login credentials</li>
-          <li>Start adding plugins specifically Elementor</li>
-          <li>Configure and publish</li>
-        </ol>
-        <p>
-          The design was created in Figma and crafted in WordPress using
-          Elementor.
-        </p>
-      
-        <p>
-          The most time consuming part was creating the copy. But that's a story
-          for another day.
+          In conclusion, by working closely with the client and utilizing my
+          design and development expertise, I was able to create a website that
+          fulfilled Tidy Cactus's vision, conveyed the business's organic and
+          natural ethos, and ultimately helped increase their sales and business
+          growth.
         </p>
       </div>
     </div>

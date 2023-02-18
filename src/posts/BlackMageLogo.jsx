@@ -15,18 +15,10 @@ function BlackMageLogo() {
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
           <h1 className="text-5xl mb-10">Black Mage Media Logo</h1>
-          <p>
-            Black Mage Media is a company I created that offers unlimited
-            graphic design for one fixed monthly subscription. Pretty sweet deal
-            if you ask me.
-          </p>
-          <p>
-            I really had a lot of fun creating this logo as I took inspiration
-            from time favorite video game Final Fantasy. In the game there are
-            these pointy hat mages that I thought would fit perfectly replacing
-            the letter A in the word Mage itself. I feel like it worked out
-            quite well.
-          </p>
+          <p>Black Mage Media is a company that I founded to offer businesses a cost-effective and streamlined solution for their graphic design needs. Our innovative subscription-based model provides clients with unlimited access to high-quality designs for a fixed monthly fee, making our services an incredibly attractive option.</p>
+          <p>As the founder and lead designer, I approached the creation of our company&apos;s logo with the same level of creativity and attention to detail that we bring to every client project. Drawing inspiration from one of my favorite video games, Final Fantasy, I incorporated elements of the game&apos;s iconic black mage character into the design.</p>
+          <p>By replacing the letter &quot;A&quot; in &quot;Mage&quot; with a pointy-hat mage character, I was able to create a memorable and eye-catching logo that effectively represents our company&apos;s brand and values. Our logo is a reflection of our commitment to creative design, innovation, and outstanding customer service.</p>
+          <p>At Black Mage Media, we believe that graphic design is a critical component of any successful business. By offering our clients unlimited access to high-quality designs, we are making it easier than ever for companies to elevate their branding and stand out in their respective markets.</p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
           <div>

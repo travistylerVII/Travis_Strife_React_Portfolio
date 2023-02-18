@@ -35,40 +35,15 @@ function YogaLandingPage() {
           </h1>
           <h2>Project Overview</h2>
           <p>
-            Designed for yoga studios, surprisingly this Leadpages landing page
-            theme was one of Leadpages top-rated themes in their marketplace!
-          </p>
-          <p>
-            This was one of those instances where I would have never thought to
-            design and develop a landing page like this unless someone requested
-            it specifically and that&#39;s exactly what happened. Apparently,
-            there are a lot of business owners who own studios that use
-            Leadpages.
+            As both the designer and developer for this Leadpages landing page
+            theme, I was surprised to learn that it became one of Leadpages
+            top-rated themes in their marketplace. This project came about when
+            a client requested a landing page for their yoga studio, and it
+            opened my eyes to the market demand for this type of design.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
-          <div className="flex md:justify-end md:items-end mb-5">
-            <div className="mr-[10px] md:ml-[10px] md:mr-[0px] md:order-last">
-              <a
-                href="https://theleadagent.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaGithub size={30} />
-              </a>
-            </div>
-            <div>
-              <span className="text-sm self-center">
-                <a
-                  href="https://theleadagent.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Github Repository
-                </a>
-              </span>
-            </div>
-          </div>
+          
           <div>
             <ul className="md:text-right mb-5">
               <li>
@@ -110,21 +85,33 @@ function YogaLandingPage() {
         </motion.div>
       </motion.div>
       <div>
-        <p>Designed in Photoshop.</p>
+        <h2>Design</h2>
+        <p>
+          The design process started in Photoshop, where I focused on subtle
+          aesthetic details. I believe that the art of subtlety is extremely
+          powerful in design when executed properly, and that's what I aimed for
+          in this landing page. I incorporated accent colors and background
+          patterns to give the page a unique look while maintaining its
+          simplicity. The final design exceeded my expectations, and the client
+          was thrilled with it.
+        </p>
         <p>
           <img src={YogaScreen} alt="Yoga Photoshop Screenshot" />
         </p>
+        <h2>Development</h2>
         <p>
-          What I love about this page is the subtly in the design ascetics. The
-          art of subtly is extremely powerful in design when used right. In this
-          case, the subtly comes in the form of accent colors and background
-          patterns. I am extremely happy with how this turned out and so were
-          Leadpages.
+          In terms of development, I used HTML, CSS (Bootstrap), and JSON to
+          integrate the design into the Leadpages editor at the time. JSON was
+          necessary to make sure the page worked seamlessly with the editor.
+          Since then, Leadpages has switched to a drag and drop editor.
         </p>
+        <h2>Final Words</h2>
         <p>
-          Regarding the development, I used HTML, CSS (Bootstrap), and JSON.
-          JSON was needed to integrate it with the Leadpages editor at the time.
-          Since then they have switched to drag and drop editor.
+          What sets this landing page apart is its subtle design and effective
+          use of color and patterns. It proves that even a simple design can be
+          highly effective and successful. I am proud to have designed and
+          developed this theme and am pleased that it has become one of
+          Leadpages' top-rated themes in their marketplace.
         </p>
       </div>
     </div>

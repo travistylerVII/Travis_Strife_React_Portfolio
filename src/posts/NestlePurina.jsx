@@ -16,19 +16,18 @@ function NestlePurina() {
         <div className="md:w-[70%]">
           <h1 className="text-5xl mb-5">Nestle Purina Business Card Design</h1>
           <h2>Project Overview</h2>
-          <p>Business cards designed for Nestle Purina. </p>
           <p>
-            Wanna hear something I find kinda strange... Nestle the cholodate
-            company merged with Purina the dog food company to form
-            "Nestle-Purina". Why? I have no idea. In fact, I find it very
-            strange. But who am I to judge.
+              a rep at Nestle Purina, the merger of two well-known brands in the food industry,
+              approached me to design their business cards. As a designer, I was
+              entrusted with the task of creating a business card that accurately
+              reflects their corporate identity. Despite the strict branding guidelines
+              set by the company, I took on the challenge and created a design that they
+              ultimately loved.
           </p>
-          <p>
-            However, regardless of their strange business strategy, someone from
-            the corporate office at one point put trust in me to design them a
-            business card. (Welp, that was a mistake.) Lucky for me, in the end,
-            they loved it.
-          </p>
+          <div>
+              
+          </div>
+
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
           <div>
@@ -50,32 +49,22 @@ function NestlePurina() {
       </div>
       <div>
         <p>
-          Now, I&#39;m going to be 100% honest with you.... the design of these
-          cards is not anything to write home about. They are just on my
-          portfolio here for brand recognition. Gotta capitalize off those big
-          brand names from time to time ya know?
-        </p>
-        <p>
-          However, with their strict corporate branding guidelines, I hardly had
-          any creative wiggle room to get crazy with the design. Which was a
-          good decision on their part because I would have put Tuna from the
-          popular instagram channel&nbsp;
-          <a
-            href="https://www.instagram.com/tunameltsmyheart"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Tuna Melts My Heart
-          </a>
-          &nbsp;on the backside of the card and called it a day!
-        </p>
-        <p>
-          <img src={TunaBizCard} alt="Tuna Biz Card Mockup" />
-        </p>
-        <p>
-          But overall I guess I like how they turned out. They do the job they
-          were intended for perfectly well and sometimes that is all you need.
-        </p>
+              While the design of the cards is not my most creative work, it is a
+              testament to my ability to follow strict guidelines while still producing a
+              functional and professional design. As a designer, it's essential to
+              understand the importance of following branding guidelines while still
+              producing a design that speaks to the brand's values.
+          </p>
+          
+          <p>
+              Although I had limited room for creative expression, I was able to produce
+              a design that achieved its intended purpose. As a designer, sometimes our
+              job is simply to create a design that performs its intended function, and
+              in this case, the cards do just that. As with any project, I take pride in
+              my ability to deliver a final product that meets the client's needs and
+              expectations.
+          </p>
+        
       </div>
     </div>
   );
