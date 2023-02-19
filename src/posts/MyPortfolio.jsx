@@ -28,7 +28,7 @@ function MyPortfolio() {
       </div>
       <div className="company-title flex flex-col-2 space-x-4 mb-8">
         <img src={CompanyImage} alt="Company" className="w-11 h-11" />
-        <h4 className="pt-2">Moore Media LLC</h4>
+        <h4 className="pt-2">TravisTMoore.com</h4>
       </div>
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
@@ -49,10 +49,6 @@ function MyPortfolio() {
             That's why I chose the time-consuming, but way more fun route of
             designing my portfolio in Figma, and hand-coding it using HTML, CSS,
             Javascript, React and Tailwind!
-          </p>
-          <p>
-            It was way more work, but now I don’t have to deal with bloated
-            Wordpress code and have full customization.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">

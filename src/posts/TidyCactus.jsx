@@ -8,6 +8,7 @@ import Image2 from "../assets/tidy-cactus-screen-2@2x.jpg";
 import Image3 from "../assets/tidy-cactus-screen-3@2x.jpg";
 import Image4 from "../assets/tidy-cactus-screen-4@2x.jpg";
 import Image5 from "../assets/tidy-cactus-screen-5@2x.jpg";
+import CardsImage from "../assets/bre_cards_@2x.jpg";
 import { FaExternalLinkAlt } from "react-icons/fa";
 function TidyCactus() {
   const [width, setWidth] = useState(0);
@@ -77,6 +78,8 @@ function TidyCactus() {
               <li>Wordpress Website</li>
               <li>Elementor Theme</li>
               <li>Figma Theme Files</li>
+              <li>Illustrator Logo Files</li>
+              <li>PDF Final Files</li>
             </ul>
           </div>
         </div>
@@ -106,13 +109,13 @@ function TidyCactus() {
       <div>
         <h2>Problem & Solution</h2>
         <p>
-          The challenge was that there was no sales copy to work with, which is
-          a crucial element in designing a successful website. I utilized my
-          experience in writing website sales copy to create a framework that
-          included all the essential sections such as the top navigation, hero
+          The primary challenge for this project was that the client didn't have any content or sales copy for the website, which is of course 
+          a crucial element in designing a successful website. Luckily I had extensive
+          experience in writing website sales copy in the past. A goto simple framework that
+          use for copy includes a top navigation, hero
           section, call-to-action, features, benefits, testimonials, gallery,
-          FAQ, and footer. With this framework, I was able to create copy that
-          represented the business in a positive light.
+          FAQ, and footer. With this framework, I was easily able to create copy that
+          represented the different parts of the business in a positive light. From there the client can use that content as a foundation to build off of for the future.
         </p>
 
         <p>
@@ -124,12 +127,11 @@ function TidyCactus() {
           offers premium services that won't break the bank, and we wanted to
           ensure that readers understood this.
         </p>
+        <h2>Design</h2>
         <p>
           With the sales copy approved, I designed the website using Figma,
           which is my preferred tool for most of my design projects. The design
           was clean, minimal, and embraced the boho style that the client loved.
-          I also redesigned the logo, business cards, and marketing materials to
-          complement the website's design and complete the brand image.
         </p>
         <div className="mb-10">
           <iframe
@@ -140,6 +142,11 @@ function TidyCactus() {
             allowFullScreen
           ></iframe>
         </div>
+        <p>I also redesigned the logo, business cards, and marketing materials to
+          complement the website's design and complete the brand image.</p>
+          <p>
+          <img src={CardsImage} alt="Bre Cards"/>
+          </p>
         <h2>Development</h2>
         <p>
           For the development, I used WordPress and Elementor, which allowed me

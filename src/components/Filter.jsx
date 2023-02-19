@@ -87,6 +87,12 @@ function Filter({ setActiveCat, activeCat, setFiltered, posts }) {
       >
         Wordpress
       </button>
+      <button
+        onClick={() => setActiveCat("Elementor")}
+        className={"btn " + (activeCat === "Elementor" ? "active" : "")}
+      >
+        Elementor
+      </button>
     </div>
   );
 }
