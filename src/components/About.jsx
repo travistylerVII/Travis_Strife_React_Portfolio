@@ -15,8 +15,8 @@ const about = () => {
             alt="Travis Headshot"
             className="rounded-[20px] max-w-[280px]"
           />
-          <h4 class="mt-5 text-center text-2xl">Travis Moore</h4>
-          <div class="flex flex-nowrap gap-2 mt-3 justify-center">
+          <h4 className="mt-5 text-center text-2xl">Travis Moore</h4>
+          <div className="flex flex-nowrap gap-2 mt-3 justify-center">
               <div><a href="https://www.linkedin.com/in/travis-moore-81548419/" target="_blank" rel="noreferrer"><FaLinkedin size={30} /></a></div>
               <div><a href="https://twitter.com/travistylerVII" target="_blank" rel="noreferrer"><FaTwitterSquare size={30} /></a></div>
               <div><a href="https://github.com/travistylerVII" target="_blank" rel="noreferrer"><FaGithubSquare size={30} /></a></div>

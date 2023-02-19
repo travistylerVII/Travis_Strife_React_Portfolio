@@ -15,7 +15,6 @@ function BrandingCoach() {
       <div className="md:flex md:flex-col-2">
         <div className="md:w-[70%]">
           <h1 className="text-5xl mb-5">Leadpages Coach Landing Page Theme </h1>
-          <h2>Project Overview</h2>
           <p>
             Leadpages services a lot of coaches of all different types. This
             page was designed and developed to the help them promote themselves

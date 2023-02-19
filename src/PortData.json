@@ -148,6 +148,21 @@
   },
   {
     "id": 12,
+    "company": "Tidy Cactus Cleaning Co.",
+    "companyImg": "../images/tidy-cactus-small-logo@2x.png",
+    "itemImg": "../images/tidy-cactus-preview@2x.jpg",
+    "header": "Tidy Cactus Company Website & Branding",
+    "tags": [
+      "Design",
+      "Elementor",
+      "Wordpress",
+      "Figma"
+    ],
+    "excerpt": "I was approached by Tidy Cactus Cleaning, an cleaning company in Arizona, who were looking to grow but couldn't due to the lack of a website...",
+    "page": "TidyCactus"
+  },
+  {
+    "id": 13,
     "company": "Moore Media LLC",
     "companyImg": "../images/MooreMedia_Company_Icon.png",
     "itemImg": "../images/React_Masonry_Grid_Filter_Video_Preview_800_600.mp4",
@@ -155,16 +170,6 @@
     "tags": ["Development", "React", "HTML", "CSS", "Javascript", "Tailwind"],
     "excerpt": "This masonry style grid component with filter was custom designed and developed so I had a clean and user friendly way to showcase my work.",
     "page": "ReactMasonryGrid"
-  },
-  {
-    "id": 13,
-    "company": "Logistick Promotions",
-    "companyImg": "../images/Logistick_Company_Logo@2x.jpg",
-    "itemImg": "../images/Logistick_Preview@2x.jpg",
-    "header": "Logistick Logo Design",
-    "tags": ["Design", "Illustrator", "Logo"],
-    "excerpt": "Logistick Promotions is a company that creates marketing materials that stick. You know, like stickers and magnets...",
-    "page": "Logistick"
   },
   {
     "id": 14,
@@ -236,18 +241,13 @@
   },
   {
     "id": 19,
-    "company": "Tidy Cactus Cleaning Co.",
-    "companyImg": "../images/tidy-cactus-small-logo@2x.png",
-    "itemImg": "../images/tidy-cactus-preview@2x.jpg",
-    "header": "Tidy Cactus Company Website & Branding",
-    "tags": [
-      "Design",
-      "Elementor",
-      "Wordpress",
-      "Figma"
-    ],
-    "excerpt": "I was approached by Tidy Cactus Cleaning, an cleaning company in Arizona, who were looking to grow but couldn't due to the lack of a website...",
-    "page": "TidyCactus"
+    "company": "Logistick Promotions",
+    "companyImg": "../images/Logistick_Company_Logo@2x.jpg",
+    "itemImg": "../images/Logistick_Preview@2x.jpg",
+    "header": "Logistick Logo Design",
+    "tags": ["Design", "Illustrator", "Logo"],
+    "excerpt": "Logistick Promotions is a company that creates marketing materials that stick. You know, like stickers and magnets...",
+    "page": "Logistick"
   },
   {
     "id": 20,

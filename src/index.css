@@ -149,8 +149,12 @@
 .page-content h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  margin-bottom: 1rem;
-  font-weight: normal;
+  font-weight: 600;
+  background-color: #282631;
+  padding: 20px 60px 20px 90px;
+  border-left: #4be6ca solid 8px;
+  display: inline-block;
+  margin: 0 0 1rem -100px;
 }
 
 .header-image {
@@ -220,6 +224,10 @@
   .bg-hero {
     opacity: 0.2;
     background-position: 50% 0%;
+  }
+  .page-content h2 {
+    padding: 20px 60px 20px 30px;
+    margin: 0 0 1rem -40px;
   }
 }
 
