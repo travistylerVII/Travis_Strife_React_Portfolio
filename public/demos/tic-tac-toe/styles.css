@@ -1,0 +1,276 @@
+/* GLOBAL ----------- */
+@font-face {
+  font-family: "komika"; /*a name to be used later*/
+  src: url("assets/KOMIKAX_.ttf"); /*URL to font*/
+}
+body {
+  color: #fff;
+  padding-top: 30px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col1 {
+  width: 65%;
+  margin: 20px;
+}
+
+.col2 {
+  width: 25%;
+  margin: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+  backdrop-filter: blur(5px);
+}
+
+.overlay-elements {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  font-size: 4rem;
+  font-family: komika;
+}
+
+.overlay-btn {
+  margin-top: 20px;
+}
+
+/* GAMEBOARD -------- */
+#gameboard-container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px 30px 10px;
+  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+  border-radius: 10px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.square {
+  width: 208px;
+  margin: 15px;
+  text-align: center;
+  background-color: #11191f;
+  border-radius: 10px;
+  box-shadow: 0px 15px 0px 0px #21323b;
+  -webkit-box-shadow: 0px 15px 0px 0px #21323b;
+  -moz-box-shadow: 0px 15px 0px 0px #21323b;
+  position: relative;
+  transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+  aspect-ratio: 1/1;
+}
+
+.square:active {
+  box-shadow: 0px 3px 0px 0px #21323b;
+  -webkit-box-shadow: 0px 3px 0px 0px #21323b;
+  -moz-box-shadow: 0px 3px 0px 0px #21323b;
+  transform: translateY(10px);
+  background-color: none;
+}
+
+.marker {
+  font-family: komika;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 100px;
+  font-size: 120px;
+  color: #41cbba;
+  line-height: 60px;
+  font-weight: bolder;
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  margin-left: 8px;
+  animation: fadeInAnimation ease 0.4s;
+}
+
+.marker-pointer {
+  position: absolute;
+  font-size: 45px;
+  left: -25px;
+  transition: transform 200ms ease-in-out;
+}
+
+.pointer-position1 {
+  transform: translateY(0px);
+}
+
+.pointer-position2 {
+  transform: translateY(85px);
+}
+
+.lightup {
+  background-color: #22ebd2;
+  color: #11191f;
+}
+
+.lightup span {
+  color: #11191f;
+}
+
+/* RIGHT SIDEBAR -------- */
+#sidebar {
+  text-align: left;
+  border: 1px solid #384956;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+#game-display {
+  font-size: 26px;
+}
+
+/* Button 3 */
+.switch-button {
+  background: #385061;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 280px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #fff;
+  position: relative;
+  padding-right: 120px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.switch-button:before {
+  content: "Bot";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  pointer-events: none;
+}
+.switch-button-checkbox {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+}
+.switch-button-checkbox:checked + .switch-button-label:before {
+  transform: translateX(120px);
+  transition: transform 300ms linear;
+}
+.switch-button-checkbox + .switch-button-label {
+  position: relative;
+  padding: 15px 0;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+.switch-button-checkbox + .switch-button-label:before {
+  content: "";
+  background: #aa7ecd;
+  height: 100%;
+  width: 163px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 30px;
+  transform: translateX(0);
+  transition: transform 300ms;
+}
+.switch-button-checkbox + .switch-button-label .switch-button-label-span {
+  position: relative;
+}
+
+/* END TOGGLE ---*/
+form {
+  margin-bottom: 5px;
+}
+
+#start-btn {
+  background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+  color: #000;
+  font-weight: bold;
+  border: 0;
+}
+
+#restart-btn {
+  background-color: #1b2730;
+  border: 1px solid #384956;
+}
+
+@media only screen and (max-width : 1200px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+  .col1 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+  .col2 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+  .square {
+    width: 30%;
+  }
+}
+@media only screen and (max-width : 768px) {
+  .square {
+    width: 28%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

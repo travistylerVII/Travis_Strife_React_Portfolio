@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="scripts.js" defer></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <h1 class="primary-header">Tic Tac Toe</h1>
+        <div class="row">
+          <div class="col1">
+            <div id="gameboard-container">
+              
+                <div class="square" data-square="0"></div>
+                <div class="square" data-square="1"></div>
+                <div class="square" data-square="2"></div>
+             
+                <div class="square" data-square="3"></div>
+                <div class="square" data-square="4"></div>
+                <div class="square" data-square="5"></div>
+              
+                <div class="square" data-square="6"></div>
+                <div class="square" data-square="7"></div>
+                <div class="square" data-square="8"></div>
+              
+            </div>
+          </div>
+          <div class="col2">
+            
+            <div class="switch-button">
+              <input class="switch-button-checkbox" type="checkbox"></input>
+              <label class="switch-button-label" for=""><span class="switch-button-label-span">Person</span></label>
+            </div>
+
+
+            <div id="sidebar">
+              <h2 id="game-display">Enter Name's</h2>
+              <form>
+                <span class="marker-pointer">👉</span>
+                <input type="text" placeholder="Player 1 Name" class="player1-input"/>
+                <input type="text" placeholder="Player 2 Name" class="player2-input"/>
+                <button id="start-btn">Start</button>
+              </form>
+              <button id="restart-btn">Restart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="overlay" class="hide">
+      <div class="overlay-elements">
+        <span class="overlay-notification">Winner</span>
+        <button class="overlay-btn">Play Again</button>
+      </div>
+    </div>
+  </body>
+</html>
