@@ -21,7 +21,6 @@
 @layer utilities {
   .masonry-3-col {
     column-count: 3;
-    column-gap: 1em;
   }
   .masonry-2-col {
     column-count: 2;
