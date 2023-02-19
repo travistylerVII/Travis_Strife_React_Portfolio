@@ -25,6 +25,7 @@ import YogaLandingPage from "../posts/YogaLandingPage";
 import CardFlipGame from "../posts/CardFlipGame";
 import TidyCactus from "../posts/TidyCactus";
 import ThinkPro from "../posts/ThinkPro";
+import TicTacToe from "../posts/TicTacToe";
 
 const Portfolio = (props) => {
   const [posts, setPosts] = useState([]);
@@ -93,6 +94,7 @@ const Portfolio = (props) => {
           {modalData.page === "WhiteRabbitExpress" ? <WhiteRabbitExpress /> : ""}
           {modalData.page === "TidyCactus" ? <TidyCactus /> : ""}
           {modalData.page === "ThinkPro" ? <ThinkPro /> : ""}
+          {modalData.page === "TicTacToe" ? <TicTacToe /> : ""}
         </Modal>
       </div>
     </div>

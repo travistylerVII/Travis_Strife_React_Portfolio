@@ -251,6 +251,16 @@
   },
   {
     "id": 20,
+    "company": "Moore Media LLC",
+    "companyImg": "../images/MooreMedia_Company_Icon.png",
+    "itemImg": "../images/tictactoe_video.mp4",
+    "header": "Tic Tac Toe",
+    "tags": ["Design", "Development", "HTML", "CSS", "SCSS", "Javascript"],
+    "excerpt": "A simple Tic Tac Toe Game I build with Javascript, HTML, SCSS. This project was created to practice my functional programming skills.",
+    "page": "TicTacToe"
+  },
+  {
+    "id": 21,
     "company": "TH!NK Pro Graphics & Printing",
     "companyImg": "../images/thinkpro_company_symbol@2x.png",
     "itemImg": "../images/thinkpro_preview@2x.jpg",
