@@ -218,7 +218,7 @@ function MyPortfolio() {
           <p>
           <img src={CodeScreen2} alt="CodeScreen2" />
         </p>
-        <h3>Final Words</h3>
+        <h2>Final Words</h2>
           <p>
             In conclusion, designing and developing my portfolio site from
             scratch was a great learning experience. It allowed me to showcase
