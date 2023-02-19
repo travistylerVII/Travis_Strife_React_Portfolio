@@ -9,12 +9,16 @@ const about = () => {
       className="container mx-auto text-white py-[80px] max-w-[1000px] p-5"
     >
       <div className="md:flex">
-        <div className="mr-8 mb-5">
+        <div className="mr-20 mb-5">
+        <div className="rounded-full border-2 border-solid border-[#444f5e]">
+          <div className="rounded-full border-8 border-transparent">
           <img
             src={AboutImg}
             alt="Travis Headshot"
-            className="rounded-[20px] max-w-[280px]"
+            className="rounded-full max-w-[280px]"
           />
+          </div>
+          </div>
           <h4 className="mt-5 text-center text-2xl">Travis Moore</h4>
           <div className="flex flex-nowrap gap-2 mt-3 justify-center">
               <div><a href="https://www.linkedin.com/in/travis-moore-81548419/" target="_blank" rel="noreferrer"><FaLinkedin size={30} /></a></div>

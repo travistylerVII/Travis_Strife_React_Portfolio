@@ -10,7 +10,7 @@ function PortItem({ post, setModalData, setIsModalOpened }) {
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
       layout
-      className="post-box p-5 text-white break-inside"
+      className="post-box p-4 text-white break-inside"
     >
       <img
         alt={post.company}
