@@ -183,6 +183,16 @@
   },
   {
     "id": 15,
+    "company": "Copy Kraze",
+    "companyImg": "../images/copykraze_logo_symbol@2x.png",
+    "itemImg": "../images/copykraze_preview@2x.jpg",
+    "header": "CopyKraze Logo Design",
+    "tags": ["Design", "Logo"],
+    "excerpt": "",
+    "page": "CopyKrazeLogo"
+  },
+  {
+    "id": 16,
     "company": "The Lead Agent",
     "companyImg": "../images/The_Lead_Agent_Logo.png",
     "itemImg": "../images/TLA_Facebook_Funnel_Preview@2x.jpg",
@@ -192,7 +202,7 @@
     "page": "REFacebookAdFunnel"
   },
   {
-    "id": 16,
+    "id": 17,
     "company": "White Rabbit Express",
     "companyImg": "../images/White_Rabbit_Express_Company_Logo@2x.png",
     "itemImg": "../images/White_Rabbit_Express_Postcard_Preview@2x.jpg",
@@ -202,7 +212,20 @@
     "page": "WhiteRabbitExpress"
   },
   {
-    "id": 17,
+    "id": 18,
+    "company": "Tidy Cactus Cleaning Co.",
+    "companyImg": "../images/tidy-cactus-small-logo@2x.png",
+    "itemImg": "../images/tidycactus_logo_preview@2x.jpg",
+    "header": "Tidy Cactus Cleaning Logo",
+    "tags": [
+      "Design",
+      "Logo"
+    ],
+    "excerpt": "",
+    "page": "TidyCactusLogo"
+  },
+  {
+    "id": 19,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Yoga_LP_Preview@2x.jpg",
@@ -220,7 +243,7 @@
     "page": "YogaLandingPage"
   },
   {
-    "id": 18,
+    "id": 20,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/delicious_lp_theme_preview.jpg",
@@ -240,7 +263,7 @@
     "page": "DeliciousLPTheme"
   },
   {
-    "id": 19,
+    "id": 21,
     "company": "Logistick Promotions",
     "companyImg": "../images/Logistick_Company_Logo@2x.jpg",
     "itemImg": "../images/Logistick_Preview@2x.jpg",
@@ -250,7 +273,7 @@
     "page": "Logistick"
   },
   {
-    "id": 20,
+    "id": 22,
     "company": "Moore Media LLC",
     "companyImg": "../images/MooreMedia_Company_Icon.png",
     "itemImg": "../images/tictactoe_video.mp4",
@@ -260,7 +283,7 @@
     "page": "TicTacToe"
   },
   {
-    "id": 21,
+    "id": 23,
     "company": "TH!NK Pro Graphics & Printing",
     "companyImg": "../images/thinkpro_company_symbol@2x.png",
     "itemImg": "../images/thinkpro_preview@2x.jpg",
