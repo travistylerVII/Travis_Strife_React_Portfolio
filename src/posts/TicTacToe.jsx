@@ -45,7 +45,7 @@ function TicTacToe() {
             <div>
               <span className="text-sm self-center">
                 <a
-                  href="/demos/card-matching-game/game.html"
+                  href="/demos/tic-tac-toe/index.html"
                   target="_blank"
                   rel="noreferrer"
                 >

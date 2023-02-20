@@ -28,6 +28,7 @@ import ThinkPro from "../posts/ThinkPro";
 import TicTacToe from "../posts/TicTacToe";
 import TidyCactusLogo from "../posts/TidyCactusLogo";
 import CopyKrazeLogo from "../posts/CopyKrazeLogo";
+import BinaryKingsLogo from "../posts/BinaryKingsLogo";
 
 const Portfolio = (props) => {
   const [posts, setPosts] = useState([]);
@@ -99,6 +100,7 @@ const Portfolio = (props) => {
           {modalData.page === "TicTacToe" ? <TicTacToe /> : ""}
           {modalData.page === "TidyCactusLogo" ? <TidyCactusLogo /> : ""}
           {modalData.page === "CopyKrazeLogo" ? <CopyKrazeLogo /> : ""}
+          {modalData.page === "BinaryKingsLogo" ? <BinaryKingsLogo /> : ""}
         </Modal>
       </div>
     </div>

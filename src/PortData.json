@@ -40,6 +40,21 @@
   },
   {
     "id": 4,
+    "company": "Binary Kings",
+    "companyImg": "../images/binarykings_logo_company_symbol@2x.png",
+    "itemImg": "../images/binarykings_logo_preview@2x.jpg",
+    "header": "Binary Kings Logo Design",
+    "tags": [
+      "Design",
+      "Logo",
+      "Illustrator"
+      
+    ],
+    "excerpt": "",
+    "page": "BinaryKingsLogo"
+  },
+  {
+    "id": 5,
     "company": "GolfTroop",
     "companyImg": "../images/Golftroop_Company_Logo@2x.jpg",
     "itemImg": "../images/GolfTroop Flyer Preview@2x.jpg",
@@ -49,7 +64,7 @@
     "page": "GolfTroop"
   },
   {
-    "id": 5,
+    "id": 6,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Brand Coach LP Preview@2x.jpg",
@@ -68,17 +83,17 @@
     "page": "BrandingCoachLP"
   },
   {
-    "id": 6,
+    "id": 7,
     "company": "Black Mage Media",
     "companyImg": "../images/Black_Mage_Media_Company_Icon.png",
     "itemImg": "../images/Black_Mage_Media_Logo_Preview@2x.jpg",
     "header": "Black Mage Media Logo",
-    "tags": ["Design", "Logo"],
+    "tags": ["Design", "Logo", "Procreate", "Illustrator"],
     "excerpt": "Black Mage Media is a company I created that offers unlimited graphic design for one fixed monthly subscription. Pretty sweet deal if you ask me...",
     "page": "BlackMageLogo"
   },
   {
-    "id": 7,
+    "id": 8,
     "company": "TravisTMoore.com",
     "companyImg": "../images/MooreMedia_Company_Icon.png",
     "itemImg": "../images/Portfolio_Preview@2x.jpg",
@@ -98,7 +113,7 @@
   },
 
   {
-    "id": 8,
+    "id": 9,
     "company": "Realty To The Rescue",
     "companyImg": "../images/RealtyToTheRescue_Logo@2x.png",
     "itemImg": "../images/RealtyToTheRescue_Preview.jpg",
@@ -109,7 +124,7 @@
   },
 
   {
-    "id": 9,
+    "id": 10,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Coaching_LP_Theme_Preview@2x.jpg",
@@ -127,7 +142,7 @@
     "page": "CoachGuruLP"
   },
   {
-    "id": 10,
+    "id": 11,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Fitness_Funnel_Preview@2x.jpg",
@@ -137,7 +152,7 @@
     "page": "FitnessFunnel"
   },
   {
-    "id": 11,
+    "id": 12,
     "company": "Copy King",
     "companyImg": "../images/Copyking_Company_Icon.png",
     "itemImg": "../images/Leadmagnet Funnel@2x.jpg",
@@ -147,7 +162,7 @@
     "page": "LeadmagnetFunnel"
   },
   {
-    "id": 12,
+    "id": 13,
     "company": "Tidy Cactus Cleaning Co.",
     "companyImg": "../images/tidy-cactus-small-logo@2x.png",
     "itemImg": "../images/tidy-cactus-preview@2x.jpg",
@@ -162,7 +177,7 @@
     "page": "TidyCactus"
   },
   {
-    "id": 13,
+    "id": 14,
     "company": "Moore Media LLC",
     "companyImg": "../images/MooreMedia_Company_Icon.png",
     "itemImg": "../images/React_Masonry_Grid_Filter_Video_Preview_800_600.mp4",
@@ -172,7 +187,7 @@
     "page": "ReactMasonryGrid"
   },
   {
-    "id": 14,
+    "id": 15,
     "company": "Nestle Purina",
     "companyImg": "../images/Purina_Company_Logo@2x.jpg",
     "itemImg": "../images/Purina_Biz_Cards_Preview@2x.jpg",
@@ -182,17 +197,17 @@
     "page": "NestlePurina"
   },
   {
-    "id": 15,
+    "id": 16,
     "company": "Copy Kraze",
     "companyImg": "../images/copykraze_logo_symbol@2x.png",
     "itemImg": "../images/copykraze_preview@2x.jpg",
     "header": "CopyKraze Logo Design",
-    "tags": ["Design", "Logo"],
+    "tags": ["Design", "Logo", "Illustrator"],
     "excerpt": "Here is a logo that I crafted for CopyKraze.com - a professional copy and content writing service that offers unparalleled value with its unlimited content subscription.",
     "page": "CopyKrazeLogo"
   },
   {
-    "id": 16,
+    "id": 17,
     "company": "The Lead Agent",
     "companyImg": "../images/The_Lead_Agent_Logo.png",
     "itemImg": "../images/TLA_Facebook_Funnel_Preview@2x.jpg",
@@ -202,7 +217,7 @@
     "page": "REFacebookAdFunnel"
   },
   {
-    "id": 17,
+    "id": 18,
     "company": "White Rabbit Express",
     "companyImg": "../images/White_Rabbit_Express_Company_Logo@2x.png",
     "itemImg": "../images/White_Rabbit_Express_Postcard_Preview@2x.jpg",
@@ -212,20 +227,21 @@
     "page": "WhiteRabbitExpress"
   },
   {
-    "id": 18,
+    "id": 19,
     "company": "Tidy Cactus Cleaning Co.",
     "companyImg": "../images/tidy-cactus-small-logo@2x.png",
     "itemImg": "../images/tidycactus_logo_preview@2x.jpg",
     "header": "Tidy Cactus Cleaning Logo",
     "tags": [
       "Design",
-      "Logo"
+      "Logo",
+      "Illustrator"
     ],
     "excerpt": "",
     "page": "TidyCactusLogo"
   },
   {
-    "id": 19,
+    "id": 20,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Yoga_LP_Preview@2x.jpg",
@@ -243,7 +259,7 @@
     "page": "YogaLandingPage"
   },
   {
-    "id": 20,
+    "id": 21,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/delicious_lp_theme_preview.jpg",
@@ -263,7 +279,7 @@
     "page": "DeliciousLPTheme"
   },
   {
-    "id": 21,
+    "id": 22,
     "company": "Logistick Promotions",
     "companyImg": "../images/Logistick_Company_Logo@2x.jpg",
     "itemImg": "../images/Logistick_Preview@2x.jpg",
@@ -273,7 +289,7 @@
     "page": "Logistick"
   },
   {
-    "id": 22,
+    "id": 23,
     "company": "Moore Media LLC",
     "companyImg": "../images/MooreMedia_Company_Icon.png",
     "itemImg": "../images/tictactoe_video.mp4",
@@ -283,7 +299,7 @@
     "page": "TicTacToe"
   },
   {
-    "id": 23,
+    "id": 24,
     "company": "TH!NK Pro Graphics & Printing",
     "companyImg": "../images/thinkpro_company_symbol@2x.png",
     "itemImg": "../images/thinkpro_preview@2x.jpg",
