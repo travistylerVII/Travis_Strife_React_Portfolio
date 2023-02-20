@@ -40,6 +40,16 @@
   },
   {
     "id": 4,
+    "company": "GolfTroop",
+    "companyImg": "../images/Golftroop_Company_Logo@2x.jpg",
+    "itemImg": "../images/GolfTroop Flyer Preview@2x.jpg",
+    "header": "Golftroop Flyer Design",
+    "tags": ["Design", "InDesign"],
+    "excerpt": "",
+    "page": "GolfTroop"
+  },
+  {
+    "id": 5,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Brand Coach LP Preview@2x.jpg",
@@ -58,7 +68,7 @@
     "page": "BrandingCoachLP"
   },
   {
-    "id": 5,
+    "id": 6,
     "company": "Black Mage Media",
     "companyImg": "../images/Black_Mage_Media_Company_Icon.png",
     "itemImg": "../images/Black_Mage_Media_Logo_Preview@2x.jpg",
@@ -68,7 +78,7 @@
     "page": "BlackMageLogo"
   },
   {
-    "id": 6,
+    "id": 7,
     "company": "TravisTMoore.com",
     "companyImg": "../images/MooreMedia_Company_Icon.png",
     "itemImg": "../images/Portfolio_Preview@2x.jpg",
@@ -88,7 +98,7 @@
   },
 
   {
-    "id": 7,
+    "id": 8,
     "company": "Realty To The Rescue",
     "companyImg": "../images/RealtyToTheRescue_Logo@2x.png",
     "itemImg": "../images/RealtyToTheRescue_Preview.jpg",
@@ -99,7 +109,7 @@
   },
 
   {
-    "id": 8,
+    "id": 9,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Coaching_LP_Theme_Preview@2x.jpg",
@@ -117,7 +127,7 @@
     "page": "CoachGuruLP"
   },
   {
-    "id": 9,
+    "id": 10,
     "company": "Leadpages.net",
     "companyImg": "../images/leadpages_logo.png",
     "itemImg": "../images/Fitness_Funnel_Preview@2x.jpg",
@@ -125,16 +135,6 @@
     "tags": ["Design", "Development", "HTML", "CSS", "JSON", "Bootstrap"],
     "excerpt": "",
     "page": "FitnessFunnel"
-  },
-  {
-    "id": 10,
-    "company": "GolfTroop",
-    "companyImg": "../images/Golftroop_Company_Logo@2x.jpg",
-    "itemImg": "../images/GolfTroop Flyer Preview@2x.jpg",
-    "header": "Golftroop Flyer Design",
-    "tags": ["Design", "InDesign"],
-    "excerpt": "",
-    "page": "GolfTroop"
   },
   {
     "id": 11,
@@ -168,7 +168,7 @@
     "itemImg": "../images/React_Masonry_Grid_Filter_Video_Preview_800_600.mp4",
     "header": "React Masonry Grid Filter Component",
     "tags": ["Development", "React", "HTML", "CSS", "Javascript", "Tailwind"],
-    "excerpt": "This masonry style grid component with filter was custom designed and developed so I had a clean and user friendly way to showcase my work.",
+    "excerpt": "",
     "page": "ReactMasonryGrid"
   },
   {
@@ -256,7 +256,7 @@
     "itemImg": "../images/tictactoe_video.mp4",
     "header": "Tic Tac Toe",
     "tags": ["Design", "Development", "HTML", "CSS", "SCSS", "Javascript"],
-    "excerpt": "A simple Tic Tac Toe Game I build with Javascript, HTML, SCSS. This project was created to practice my functional programming skills.",
+    "excerpt": "",
     "page": "TicTacToe"
   },
   {
