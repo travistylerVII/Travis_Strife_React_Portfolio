@@ -23,7 +23,7 @@ function BinaryKingsLogo() {
             Binary Kings Logo Design
           </h1>
           <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! 
+          Binary Kings is an award winning premier binary option brokerage that provides cutting edge trading tools and techniques to it's traders. The client's vision for the logo design was to incorporate a classic crown as the primary symbol. Creating a design that encapsulated the essence of options trading while using a crown as the central element presented a significant challenge. However, by integrating arrows as the crown tips pointing upwards and downwards, a clever representation of binary options trading was successfully achieved within the logo. As a result, the client was delighted with the final design, and another successful project in the portfolio.
           </p>
         </div>
         <div className="project-details flex-auto md:mt-0 mt-10">
