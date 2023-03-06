@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import TopTestimonials from "./TopTestimonials";
 
-const home = () => {
+const Home = () => {
   return (
     <div
       name="home"
@@ -46,4 +46,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

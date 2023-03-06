@@ -2,7 +2,7 @@ import React from "react";
 import AboutImg from "../assets/Travis_headshot_1@2x.jpg";
 import { FaLinkedin, FaTwitterSquare, FaGithubSquare } from 'react-icons/fa'
 
-const about = () => {
+const About = () => {
   return (
     <div
       name="about"
@@ -44,4 +44,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const contact = () => {
+const Contact = () => {
   return (
     <div name="contact" className="w-full flex justify-center items-center p-4">
       <form
@@ -43,4 +43,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

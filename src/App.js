@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [modalBlurr, setModalBlurr] = useState(false);
@@ -34,9 +35,7 @@ function App() {
       <Portfolio setValue={setModalBlurr} />
       <About />
       <Contact />
-      <div className="footer text-center text-white py-10">
-        © 2023 Moore Media LLC All Rights Reserved
-      </div>
+      <Footer />
     </div>
   );
 }
